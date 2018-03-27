@@ -42,9 +42,9 @@
 
 #define THIS_FILE	"APP"
 
-#define SIP_DOMAIN	"example.com"
-#define SIP_USER	"alice"
-#define SIP_PASSWD	"secret"
+#define SIP_DOMAIN	"127.0.0.1"
+#define SIP_USER	"102"
+#define SIP_PASSWD	"102"
 
 
 /* Callback called by the library upon receiving incoming call */
@@ -143,7 +143,7 @@ int main(int argc, char *argv[])
 	pjsua_transport_config cfg;
 
 	pjsua_transport_config_default(&cfg);
-	cfg.port = 5060;
+	cfg.port = 5061;//5060
 	status = pjsua_transport_create(PJSIP_TRANSPORT_UDP, &cfg, NULL);
 	if (status != PJ_SUCCESS) error_exit("Error creating transport", status);
     }
@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
 	cfg.id = pj_str("sip:" SIP_USER "@" SIP_DOMAIN);
 	cfg.reg_uri = pj_str("sip:" SIP_DOMAIN);
 	cfg.cred_count = 1;
-	cfg.cred_info[0].realm = pj_str(SIP_DOMAIN);
+	cfg.cred_info[0].realm = pj_str("myvoipapp.com");//pj_str(SIP_DOMAIN);
 	cfg.cred_info[0].scheme = pj_str("digest");
 	cfg.cred_info[0].username = pj_str(SIP_USER);
 	cfg.cred_info[0].data_type = PJSIP_CRED_DATA_PLAIN_PASSWD;
