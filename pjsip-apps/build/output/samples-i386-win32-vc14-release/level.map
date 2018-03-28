@@ -1,0 +1,1423 @@
+ level
+
+ Timestamp is 5abb98e5 (Wed Mar 28 21:30:13 2018)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00013369H .text$mn                CODE
+ 0002:00000000 0000022cH .idata$5                DATA
+ 0002:0000022c 00000004H .00cfg                  DATA
+ 0002:00000230 00000004H .CRT$XCA                DATA
+ 0002:00000234 00000004H .CRT$XCAA               DATA
+ 0002:00000238 00000004H .CRT$XCZ                DATA
+ 0002:0000023c 00000004H .CRT$XIA                DATA
+ 0002:00000240 00000004H .CRT$XIAA               DATA
+ 0002:00000244 00000004H .CRT$XIAC               DATA
+ 0002:00000248 00000004H .CRT$XIZ                DATA
+ 0002:0000024c 00000004H .CRT$XPA                DATA
+ 0002:00000250 00000004H .CRT$XPZ                DATA
+ 0002:00000254 00000004H .CRT$XTA                DATA
+ 0002:00000258 00000008H .CRT$XTZ                DATA
+ 0002:0000025c 00000000H .gfids$y                DATA
+ 0002:00000260 0000f2c0H .rdata                  DATA
+ 0002:0000f520 00000004H .rdata$sxdata           DATA
+ 0002:0000f524 0000022cH .rdata$zzzdbg           DATA
+ 0002:0000f750 00000004H .rtc$IAA                DATA
+ 0002:0000f754 00000004H .rtc$IZZ                DATA
+ 0002:0000f758 00000004H .rtc$TAA                DATA
+ 0002:0000f75c 00000004H .rtc$TZZ                DATA
+ 0002:0000f760 0000003cH .xdata$x                DATA
+ 0002:0000f79c 00000000H .edata                  DATA
+ 0002:0000f79c 000000f0H .idata$2                DATA
+ 0002:0000f88c 00000014H .idata$3                DATA
+ 0002:0000f8a0 0000022cH .idata$4                DATA
+ 0002:0000facc 0000090cH .idata$6                DATA
+ 0003:00000000 00000a60H .data                   DATA
+ 0003:00000a60 00001450H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000150       _main                      00401150 f   level.obj
+ 0001:000003f0       ___local_stdio_printf_options 004013f0 f i level.obj
+ 0001:00000400       _printf                    00401400 f i level.obj
+ 0001:00000430       _pjmedia_aud_subsys_init   00401430 f   pjmedia-audiodev-i386-win32-vc14-release:audiodev.obj
+ 0001:000004d0       _pjmedia_aud_subsys_shutdown 004014d0 f   pjmedia-audiodev-i386-win32-vc14-release:audiodev.obj
+ 0001:00000510       __snprintf                 00401510 f i pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0001:00000550       _pjmedia_audiodev_strerror 00401550 f   pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0001:00001900       _pjmedia_wmme_factory      00402900 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00001e50       _pjmedia_port_destroy      00402e50 f   pjmedia-i386-win32-vc14-release:port.obj
+ 0001:00001e80       _pjmedia_port_get_frame    00402e80 f   pjmedia-i386-win32-vc14-release:port.obj
+ 0001:00001ec0       _pjmedia_port_info_init    00402ec0 f   pjmedia-i386-win32-vc14-release:port.obj
+ 0001:00001f50       _pjmedia_endpt_create2     00402f50 f   pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0001:00002120       _pjmedia_endpt_destroy2    00403120 f   pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0001:000021e0       _sprintf                   004031e0 f i pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0001:00002270       _pjmedia_calc_avg_signal   00403270 f   pjmedia-i386-win32-vc14-release:silencedet.obj
+ 0001:00002660       _pjmedia_wav_player_port_create 00403660 f   pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0001:00002b80       _pjmedia_aud_driver_deinit 00403b80 f   pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0001:00002be0       _pjmedia_aud_driver_init   00403be0 f   pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0001:00002e60       _pjmedia_get_aud_subsys    00403e60 f   pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0001:00002e70       _pjmedia_format_get_audio_format_detail 00403e70 f   pjmedia-i386-win32-vc14-release:format.obj
+ 0001:00002e90       _pjmedia_codec_mgr_destroy 00403e90 f   pjmedia-i386-win32-vc14-release:codec.obj
+ 0001:00002f20       _pjmedia_codec_mgr_init    00403f20 f   pjmedia-i386-win32-vc14-release:codec.obj
+ 0001:00002f90       _pjmedia_sdp_attr_create   00403f90 f   pjmedia-i386-win32-vc14-release:sdp.obj
+ 0001:00002ff0       _pjmedia_sdp_attr_find     00403ff0 f   pjmedia-i386-win32-vc14-release:sdp.obj
+ 0001:00003080       _pjmedia_sdp_media_deactivate 00404080 f   pjmedia-i386-win32-vc14-release:sdp.obj
+ 0001:000030b0       _pjmedia_sdp_media_find_attr 004040b0 f   pjmedia-i386-win32-vc14-release:sdp.obj
+ 0001:000030e0       _pjmedia_strerror          004040e0 f   pjmedia-i386-win32-vc14-release:errno.obj
+ 0001:00003200       __initialize_denormal_control 00404200 f   MSVCRT:denormal_control.obj
+ 0001:00003200       _pjmedia_wave_hdr_file_to_host 00404200 f   pjmedia-i386-win32-vc14-release:wave.obj
+ 0001:00003200       __initialize_invalid_parameter_handler 00404200 f   MSVCRT:invalid_parameter_handler.obj
+ 0001:00003200       @_guard_check_icall_nop@4  00404200 f   MSVCRT:guard_support.obj
+ 0001:00004940       __matherr                  00405940 f   MSVCRT:matherr.obj
+ 0001:00004940       ___scrt_initialize_winrt   00405940 f   MSVCRT:utility_desktop.obj
+ 0001:00004940       __get_startup_thread_locale_mode 00405940 f   MSVCRT:thread_locale.obj
+ 0001:00004940       __get_startup_new_mode     00405940 f   MSVCRT:new_mode.obj
+ 0001:00004940       __get_startup_commit_mode  00405940 f   MSVCRT:commit_mode.obj
+ 0001:00004940       _srtp_ekt_stream_init_from_policy 00405940 f   libsrtp-i386-win32-vc14-release:ekt.obj
+ 0001:00004fa0       _get_libsrtp_errstr        00405fa0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005260       _pjmedia_transport_srtp_start 00406260 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005900       _pjmedia_transport_srtp_stop 00406900 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005d90       _pj_base64_decode          00406d90 f   pjlib-util-i386-win32-vc14-release:base64.obj
+ 0001:00005f80       _pj_base64_encode          00406f80 f   pjlib-util-i386-win32-vc14-release:base64.obj
+ 0001:00006190       _pj_atexit                 00407190 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000061c0       _pj_atomic_dec_and_get     004071c0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006210       _pj_atomic_destroy         00407210 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006230       _pj_atomic_inc             00407230 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006280       _pj_enter_critical_section 00407280 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000062e0       _pj_init                   004072e0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006500       _pj_leave_critical_section 00407500 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006560       _pj_mutex_create           00407560 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000065b0       _pj_mutex_create_simple    004075b0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000065b0       _pj_mutex_create_recursive 004075b0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006600       _pj_mutex_destroy          00407600 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006670       _pj_mutex_lock             00407670 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000066e0       _pj_mutex_trylock          004076e0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006760       _pj_mutex_unlock           00407760 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000067d0       _pj_sem_destroy            004077d0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006860       _pj_sem_post               00407860 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006900       _pj_sem_trywait            00407900 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006960       _pj_sem_wait               00407960 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006a70       _pj_shutdown               00407a70 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006bb0       _pj_term_set_color         00407bb0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006c80       _pj_thread_check_stack     00407c80 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006cd0       _pj_thread_create          00407cd0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006e20       _pj_thread_destroy         00407e20 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006eb0       _pj_thread_get_name        00407eb0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006f00       _pj_thread_join            00407f00 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00006fc0       _pj_thread_local_alloc     00407fc0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007010       _pj_thread_local_free      00408010 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007060       _pj_thread_local_get       00408060 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007070       _pj_thread_local_set       00408070 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000070b0       _pj_thread_sleep           004080b0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007100       _pj_thread_this            00408100 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007190       _pj_errno_clear_handlers   00408190 f   pjlib-i386-win32-vc14-release:errno.obj
+ 0001:000071b0       _pj_register_strerror      004081b0 f   pjlib-i386-win32-vc14-release:errno.obj
+ 0001:00007290       _pj_strerror               00408290 f   pjlib-i386-win32-vc14-release:errno.obj
+ 0001:000073d0       _pj_pool_alloc             004083d0 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007540       _pj_pool_calloc            00408540 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007570       _pj_pool_create            00408570 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007580       _pj_pool_create_int        00408580 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007690       _pj_pool_destroy_int       00408690 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:000076d0       _pj_pool_get_capacity      004086d0 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:000076e0       _pj_pool_get_used_size     004086e0 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007710       _pj_pool_getobjname        00408710 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007720       _pj_pool_init_int          00408720 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007790       _pj_pool_release           00408790 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:000077b0       _pj_pool_reset             004087b0 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007bc0       _pj_caching_pool_destroy   00408bc0 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007ca0       _pj_caching_pool_init      00408ca0 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007e20       _pj_str                    00408e20 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00007e40       _pj_strcmp                 00408e40 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00007ef0       _pj_strdup                 00408ef0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00007f30       _pj_strdup2                00408f30 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00007f90       _pj_strdup_with_null       00408f90 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00007fe0       _pj_stricmp                00408fe0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00008040       _pj_stricmp2               00409040 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:000080b0       _pj_strncpy_with_null      004090b0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:000080f0       _pj_strtok                 004090f0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:000081e0       _pj_strtoul                004091e0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00008240       _pj_strtoul2               00409240 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:000082f0       _pj_utoa                   004092f0 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00008370       _pj_utoa_pad               00409370 f   pjlib-i386-win32-vc14-release:string.obj
+ 0001:00008410       _pj_get_netos_error        00409410 f   pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0001:00008430       _pj_get_os_error           00409430 f   pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0001:00008450       _platform_strerror         00409450 f   pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0001:00008570       _pj_log                    00409570 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008a70       _pj_log_1                  00409a70 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008a90       _pj_log_3                  00409a90 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008ab0       _pj_log_4                  00409ab0 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008ad0       _pj_log_5                  00409ad0 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008af0       _pj_log_get_color          00409af0 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008b60       _pj_log_get_decor          00409b60 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008b70       _pj_log_get_level          00409b70 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008b80       _pj_log_init               00409b80 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008bf0       _pj_gettimeofday           00409bf0 f   pjlib-i386-win32-vc14-release:os_time_win32.obj
+ 0001:00008ca0       _pj_time_decode            00409ca0 f   pjlib-i386-win32-vc14-release:os_time_win32.obj
+ 0001:00008d50       _pj_list_erase             00409d50 f   pjlib-i386-win32-vc14-release:list.obj
+ 0001:00008d70       _pj_list_insert_after      00409d70 f   pjlib-i386-win32-vc14-release:list.obj
+ 0001:00008d90       _pj_list_insert_before     00409d90 f   pjlib-i386-win32-vc14-release:list.obj
+ 0001:00008e70       _ioqueue_dispatch_exception_event 00409e70 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00008fc0       _ioqueue_dispatch_read_event 00409fc0 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009260       _ioqueue_dispatch_write_event 0040a260 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009570       _pj_ioqueue_create         0040a570 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009740       _pj_ioqueue_destroy        0040a740 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009800       _pj_ioqueue_poll           0040a800 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009bc0       _pj_ntohl                  0040abc0 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009bd0       _pj_ntohs                  0040abd0 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009be0       _pj_sock_accept            0040abe0 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009c50       _pj_sock_getsockname       0040ac50 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009cb0       _pj_sock_getsockopt        0040acb0 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009d20       _pj_sock_recv              0040ad20 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009d90       _pj_sock_recvfrom          0040ad90 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009e00       _pj_sock_send              0040ae00 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009e70       _pj_sock_sendto            0040ae70 f   pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0001:00009f30       _pj_file_exists            0040af30 f   pjlib-i386-win32-vc14-release:file_access_win32.obj
+ 0001:00009f70       _pj_file_size              0040af70 f   pjlib-i386-win32-vc14-release:file_access_win32.obj
+ 0001:00009fd0       _pj_file_close             0040afd0 f   pjlib-i386-win32-vc14-release:file_io_win32.obj
+ 0001:0000a010       _pj_file_getpos            0040b010 f   pjlib-i386-win32-vc14-release:file_io_win32.obj
+ 0001:0000a090       _pj_file_open              0040b090 f   pjlib-i386-win32-vc14-release:file_io_win32.obj
+ 0001:0000a1d0       _pj_file_read              0040b1d0 f   pjlib-i386-win32-vc14-release:file_io_win32.obj
+ 0001:0000a230       _pj_file_setpos            0040b230 f   pjlib-i386-win32-vc14-release:file_io_win32.obj
+ 0001:0000a2c0       _pj_array_erase            0040b2c0 f   pjlib-i386-win32-vc14-release:array.obj
+ 0001:0000a300       _pj_exception_id_alloc     0040b300 f   pjlib-i386-win32-vc14-release:except.obj
+ 0001:0000a350       _pj_exception_id_free      0040b350 f   pjlib-i386-win32-vc14-release:except.obj
+ 0001:0000a390       _pj_pop_exception_handler_ 0040b390 f   pjlib-i386-win32-vc14-release:except.obj
+ 0001:0000a3c0       _pj_throw_exception_       0040b3c0 f   pjlib-i386-win32-vc14-release:except.obj
+ 0001:0000a440       _pj_get_timestamp          0040b440 f   pjlib-i386-win32-vc14-release:os_timestamp_win32.obj
+ 0001:0000a4a0       _pj_get_timestamp_freq     0040b4a0 f   pjlib-i386-win32-vc14-release:os_timestamp_win32.obj
+ 0001:0000a740       _pj_grp_lock_add_ref       0040b740 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a760       _pj_grp_lock_dec_ref       0040b760 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a790       _pj_grp_lock_release       0040b790 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a7a0       _pj_grp_lock_tryacquire    0040b7a0 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a7b0       _pj_lock_acquire           0040b7b0 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a7d0       _pj_lock_create_null_mutex 0040b7d0 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a7f0       _pj_lock_create_recursive_mutex 0040b7f0 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a810       _pj_lock_create_simple_mutex 0040b810 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a830       _pj_lock_destroy           0040b830 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a850       _pj_lock_release           0040b850 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a870       _pj_lock_tryacquire        0040b870 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a890       _pj_rand                   0040b890 f   pjlib-i386-win32-vc14-release:rand.obj
+ 0001:0000a8c0       _pj_generate_unique_string 0040b8c0 f   pjlib-i386-win32-vc14-release:guid_win32.obj
+ 0001:0000a970       _pj_pool_create_on_buf     0040b970 f   pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0001:0000aa80       _pj_log_write              0040ba80 f   pjlib-i386-win32-vc14-release:log_writer_stdout.obj
+ 0001:0000aae0       _pj_time_val_normalize     0040bae0 f   pjlib-i386-win32-vc14-release:types.obj
+ 0001:0000ab70       _pj_gettickcount           0040bb70 f   pjlib-i386-win32-vc14-release:os_timestamp_common.obj
+ 0001:0000ac40       _PJ_FD_CLR                 0040bc40 f   pjlib-i386-win32-vc14-release:sock_select.obj
+ 0001:0000acc0       _PJ_FD_COUNT               0040bcc0 f   pjlib-i386-win32-vc14-release:sock_select.obj
+ 0001:0000acc0       _srtp_rdb_get_value        0040bcc0 f   libsrtp-i386-win32-vc14-release:rdb.obj
+ 0001:0000acd0       _PJ_FD_ISSET               0040bcd0 f   pjlib-i386-win32-vc14-release:sock_select.obj
+ 0001:0000ad00       _PJ_FD_ZERO                0040bd00 f   pjlib-i386-win32-vc14-release:sock_select.obj
+ 0001:0000ad30       _pj_sock_select            0040bd30 f   pjlib-i386-win32-vc14-release:sock_select.obj
+ 0001:0000ada0       ___local_stdio_scanf_options 0040bda0 f i libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000ade0       _srtp_add_stream           0040bde0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b0b0       _srtp_create               0040c0b0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b130       _srtp_crypto_policy_set_aes_cm_256_hmac_sha1_32 0040c130 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b170       _srtp_crypto_policy_set_aes_cm_256_hmac_sha1_80 0040c170 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b1b0       _srtp_dealloc              0040c1b0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b390       _srtp_event_reporter       0040c390 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b530       _srtp_get_session_keys     0040c530 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b640       _srtp_inject_mki           0040c640 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b9a0       _srtp_protect              0040c9a0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000bcd0       _srtp_protect_mki          0040ccd0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000c280       _srtp_protect_rtcp         0040d280 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000c4d0       _srtp_protect_rtcp_mki     0040d4d0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000c870       _srtp_stream_alloc         0040d870 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000cb10       _srtp_stream_clone         0040db10 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000cd30       _srtp_stream_dealloc       0040dd30 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000cfb0       _srtp_stream_init          0040dfb0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d130       _srtp_stream_init_keys     0040e130 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d9d0       _srtp_unprotect            0040e9d0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000dcf0       _srtp_unprotect_mki        0040ecf0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000e340       _srtp_unprotect_rtcp       0040f340 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000e5c0       _srtp_unprotect_rtcp_mki   0040f5c0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000eaa0       _srtp_validate_policy_master_keys 0040faa0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000eb50       _srtp_crypto_alloc         0040fb50 f   libsrtp-i386-win32-vc14-release:alloc.obj
+ 0001:0000ebb0       _srtp_crypto_free          0040fbb0 f   libsrtp-i386-win32-vc14-release:alloc.obj
+ 0001:0000ebe0       _bitvector_alloc           0040fbe0 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000ec40       _bitvector_dealloc         0040fc40 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000ec70       _bitvector_left_shift      0040fc70 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000edd0       _bitvector_set_to_zero     0040fdd0 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000edf0       _octet_string_is_eq        0040fdf0 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000eec0       _octet_string_set_to_zero  0040fec0 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000eee0       _srtp_octet_string_hex_string 0040fee0 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000ef80       _v128_copy_octet_string    0040ff80 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000f000       _v128_hex_string           00410000 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000f090       _v128_left_shift           00410090 f   libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0001:0000f170       _srtp_err_report           00410170 f   libsrtp-i386-win32-vc14-release:srtp_err.obj
+ 0001:0000f1a0       _srtp_rdbx_add_index       004101a0 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f1f0       _srtp_rdbx_check           004101f0 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f240       _srtp_rdbx_dealloc         00410240 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f260       _srtp_rdbx_estimate_index  00410260 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f310       _srtp_rdbx_get_packet_index 00410310 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f320       _srtp_rdbx_get_window_size 00410320 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f320       _srtp_cipher_get_key_length 00410320 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f320       _srtp_auth_get_tag_length  00410320 f   libsrtp-i386-win32-vc14-release:auth.obj
+ 0001:0000f330       _srtp_rdbx_init            00410330 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f370       _srtp_rdbx_set_roc         00410370 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f3d0       _srtp_rdbx_set_roc_seq     004103d0 f   libsrtp-i386-win32-vc14-release:rdbx.obj
+ 0001:0000f430       _srtp_rdb_add_index        00410430 f   libsrtp-i386-win32-vc14-release:rdb.obj
+ 0001:0000f480       _srtp_rdb_check            00410480 f   libsrtp-i386-win32-vc14-release:rdb.obj
+ 0001:0000f4d0       _srtp_rdb_increment        004104d0 f   libsrtp-i386-win32-vc14-release:rdb.obj
+ 0001:0000f4f0       _srtp_rdb_init             004104f0 f   libsrtp-i386-win32-vc14-release:rdb.obj
+ 0001:0000f520       _srtp_cipher_dealloc       00410520 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f540       _srtp_cipher_decrypt       00410540 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f570       _srtp_cipher_encrypt       00410570 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f5a0       _srtp_cipher_get_tag       004105a0 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f5e0       _srtp_cipher_init          004105e0 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f610       _srtp_cipher_output        00410610 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f640       _srtp_cipher_set_aad       00410640 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f680       _srtp_cipher_set_iv        00410680 f   libsrtp-i386-win32-vc14-release:cipher.obj
+ 0001:0000f6b0       _srtp_auth_get_key_length  004106b0 f   libsrtp-i386-win32-vc14-release:auth.obj
+ 0001:0000f6c0       _srtp_auth_get_prefix_length 004106c0 f   libsrtp-i386-win32-vc14-release:auth.obj
+ 0001:0000f6d0       _srtp_key_limit_clone      004106d0 f   libsrtp-i386-win32-vc14-release:key.obj
+ 0001:0000f6f0       _srtp_key_limit_set        004106f0 f   libsrtp-i386-win32-vc14-release:key.obj
+ 0001:0000f730       _srtp_key_limit_update     00410730 f   libsrtp-i386-win32-vc14-release:key.obj
+ 0001:0000f790       _srtp_crypto_kernel_alloc_auth 00410790 f   libsrtp-i386-win32-vc14-release:crypto_kernel.obj
+ 0001:0000f7e0       _srtp_crypto_kernel_alloc_cipher 004107e0 f   libsrtp-i386-win32-vc14-release:crypto_kernel.obj
+ 0001:0000f830       _srtp_ekt_alloc            00410830 f   libsrtp-i386-win32-vc14-release:ekt.obj
+ 0001:0000f840       _srtp_ekt_octets_after_base_tag 00410840 f   libsrtp-i386-win32-vc14-release:ekt.obj
+ 0001:0000f860       _srtp_ekt_write_data       00410860 f   libsrtp-i386-win32-vc14-release:ekt.obj
+ 0001:0000f9b0       _srtp_stream_init_from_ekt 004109b0 f   libsrtp-i386-win32-vc14-release:ekt.obj
+ 0001:00010e70       _srtp_aes_decrypt          00411e70 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00010fa0       _srtp_aes_encrypt          00411fa0 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:000110d0       _srtp_aes_expand_decryption_key 004120d0 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:000113d0       _srtp_aes_expand_encryption_key 004123d0 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00011510       _srtp_sha1_core            00412510 f   libsrtp-i386-win32-vc14-release:sha1.obj
+ 0001:00011a60       _srtp_sha1_final           00412a60 f   libsrtp-i386-win32-vc14-release:sha1.obj
+ 0001:000120a0       _srtp_sha1_init            004130a0 f   libsrtp-i386-win32-vc14-release:sha1.obj
+ 0001:000120e0       _srtp_sha1_update          004130e0 f   libsrtp-i386-win32-vc14-release:sha1.obj
+ 0001:000121b5       ___WSAFDIsSet@8            004131b5 f   ws2_32:WS2_32.dll
+ 0001:000121bb       @__security_check_cookie@4 004131bb f   MSVCRT:_secchk_.obj
+ 0001:000121d0       __allmul                   004131d0 f   MSVCRT:llmul.obj
+ 0001:00012210       __aulldiv                  00413210 f   MSVCRT:ulldiv.obj
+ 0001:000124ad       _mainCRTStartup            004134ad f   MSVCRT:exe_main.obj
+ 0001:000124c0       __alldiv                   004134c0 f   MSVCRT:lldiv.obj
+ 0001:0001256a       ___raise_securityfailure   0041356a f   MSVCRT:gs_report.obj
+ 0001:00012592       ___report_gsfailure        00413592 f   MSVCRT:gs_report.obj
+ 0001:0001268d       ___report_rangecheckfailure 0041368d f   MSVCRT:gs_report.obj
+ 0001:00012699       ___report_securityfailure  00413699 f   MSVCRT:gs_report.obj
+ 0001:00012770       __ftoui3                   00413770 f   MSVCRT:_ftol3_.obj
+ 0001:0001277f       __ftoul3                   0041377f f   MSVCRT:_ftol3_.obj
+ 0001:0001278e       __ftol3                    0041378e f   MSVCRT:_ftol3_.obj
+ 0001:0001279b       __ftol3_NaN                0041379b f   MSVCRT:_ftol3_.obj
+ 0001:000127b3       __ftol3_work               004137b3 f   MSVCRT:_ftol3_.obj
+ 0001:00012839       __ftol3_common             00413839 f   MSVCRT:_ftol3_.obj
+ 0001:000128fb       __ftol3_arg_error          004138fb f   MSVCRT:_ftol3_.obj
+ 0001:0001290d       __ftol3_except             0041390d f   MSVCRT:_ftol3_.obj
+ 0001:00012951       __dtoui3                   00413951 f   MSVCRT:_ftol3_.obj
+ 0001:00012960       __dtoul3                   00413960 f   MSVCRT:_ftol3_.obj
+ 0001:0001296f       __dtol3                    0041396f f   MSVCRT:_ftol3_.obj
+ 0001:0001297c       __dtol3_NaN                0041397c f   MSVCRT:_ftol3_.obj
+ 0001:00012999       __dtol3_work               00413999 f   MSVCRT:_ftol3_.obj
+ 0001:00012a80       __ultod3                   00413a80 f   MSVCRT:_ftol3_.obj
+ 0001:00012ac0       __ltod3                    00413ac0 f   MSVCRT:_ftol3_.obj
+ 0001:00012b2b       ___scrt_acquire_startup_lock 00413b2b f   MSVCRT:utility.obj
+ 0001:00012b60       ___scrt_initialize_crt     00413b60 f   MSVCRT:utility.obj
+ 0001:00012b99       ___scrt_initialize_onexit_tables 00413b99 f   MSVCRT:utility.obj
+ 0001:00012c43       ___scrt_is_nonwritable_in_current_image 00413c43 f   MSVCRT:utility.obj
+ 0001:00012ccd       ___scrt_release_startup_lock 00413ccd f   MSVCRT:utility.obj
+ 0001:00012cea       ___scrt_uninitialize_crt   00413cea f   MSVCRT:utility.obj
+ 0001:00012d12       __onexit                   00413d12 f   MSVCRT:utility.obj
+ 0001:00012d4d       _atexit                    00413d4d f   MSVCRT:utility.obj
+ 0001:00012db1       ___security_init_cookie    00413db1 f   MSVCRT:gs_support.obj
+ 0001:00012dfc       __get_startup_argv_mode    00413dfc f   MSVCRT:argv_mode.obj
+ 0001:00012e00       __get_startup_file_mode    00413e00 f   MSVCRT:file_mode.obj
+ 0001:00012e06       ?__scrt_initialize_type_info@@YAXXZ 00413e06 f   MSVCRT:tncleanup.obj
+ 0001:00012e12       __should_initialize_environment 00413e12 f   MSVCRT:env_mode.obj
+ 0001:00012e12       ___acrt_initialize         00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e12       ___vcrt_uninitialize       00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e12       ___scrt_stub_for_acrt_initialize 00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e12       ___vcrt_initialize         00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e12       ___scrt_stub_for_acrt_uninitialize 00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e12       ___acrt_uninitialize       00413e12 f   MSVCRT:ucrt_stubs.obj
+ 0001:00012e15       __initialize_default_precision 00413e15 f   MSVCRT:default_precision.obj
+ 0001:00012e36       ___scrt_initialize_default_local_stdio_options 00413e36 f   MSVCRT:default_local_stdio_options.obj
+ 0001:00012e53       ___scrt_is_user_matherr_present 00413e53 f   MSVCRT:matherr_detection.obj
+ 0001:00012e5f       ___scrt_get_dyn_tls_init_callback 00413e5f f   MSVCRT:dyn_tls_init.obj
+ 0001:00012e65       ___scrt_get_dyn_tls_dtor_callback 00413e65 f   MSVCRT:dyn_tls_dtor.obj
+ 0001:00012e6b       ___scrt_fastfail           00413e6b f   MSVCRT:utility_desktop.obj
+ 0001:00012f87       ___scrt_is_managed_app     00413f87 f   MSVCRT:utility_desktop.obj
+ 0001:00012fcb       ___scrt_set_unhandled_exception_filter 00413fcb f   MSVCRT:utility_desktop.obj
+ 0001:00012fd7       ___scrt_unhandled_exception_filter@4 00413fd7 f   MSVCRT:utility_desktop.obj
+ 0001:00013018       __crt_debugger_hook        00414018 f   MSVCRT:utility_desktop.obj
+ 0001:00013020       __RTC_Initialize           00414020 f   MSVCRT:_initsect_.obj
+ 0001:0001304b       __RTC_Terminate            0041404b f   MSVCRT:_initsect_.obj
+ 0001:00013076       @_guard_check_icall@4      00414076 f i MSVCRT:checkcfg.obj
+ 0001:00013080       __SEH_prolog4              00414080 f   MSVCRT:_sehprolg4_.obj
+ 0001:000130c6       __SEH_epilog4              004140c6 f   MSVCRT:_sehprolg4_.obj
+ 0001:000130db       __except_handler4          004140db f   MSVCRT:_chandler4gs_.obj
+ 0001:000130fe       ___isa_available_init      004140fe f   MSVCRT:_cpu_disp_.obj
+ 0001:00013297       ___scrt_is_ucrt_dll_in_use 00414297 f   MSVCRT:ucrt_detection.obj
+ 0001:000132a3       _IsProcessorFeaturePresent@4 004142a3 f   kernel32:KERNEL32.dll
+ 0001:000132a9       _memcpy                    004142a9 f   vcruntime:VCRUNTIME140.dll
+ 0001:000132af       _memset                    004142af f   vcruntime:VCRUNTIME140.dll
+ 0001:000132b5       _memmove                   004142b5 f   vcruntime:VCRUNTIME140.dll
+ 0001:000132bb       _strchr                    004142bb f   vcruntime:VCRUNTIME140.dll
+ 0001:000132c1       _longjmp                   004142c1 f   vcruntime:VCRUNTIME140.dll
+ 0001:000132c7       __except_handler4_common   004142c7 f   vcruntime:VCRUNTIME140.dll
+ 0001:000132cd       __CIfmod                   004142cd f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000132d3       _exit                      004142d3 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132d9       __seh_filter_exe           004142d9 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132df       __set_app_type             004142df f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132e5       ___setusermatherr          004142e5 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000132eb       __configure_narrow_argv    004142eb f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132f1       __initialize_narrow_environment 004142f1 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132f7       __get_initial_narrow_environment 004142f7 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000132fd       __initterm                 004142fd f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013303       __initterm_e               00414303 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013309       __exit                     00414309 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001330f       __set_fmode                0041430f f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00013315       ___p___argc                00414315 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001331b       ___p___argv                0041431b f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013321       __cexit                    00414321 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013327       __c_exit                   00414327 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001332d       __register_thread_local_exe_atexit_callback 0041432d f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013333       __configthreadlocale       00414333 f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:00013339       __set_new_mode             00414339 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0001333f       ___p__commode              0041433f f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00013345       __except1                  00414345 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0001334b       __initialize_onexit_table  0041434b f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013351       __register_onexit_function 00414351 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013357       __crt_atexit               00414357 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0001335d       __controlfp_s              0041435d f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00013363       _terminate                 00414363 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000000       __imp__GetLocalTime@4      00415000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetModuleHandleW@4  00415004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__IsDebuggerPresent@0 00415008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__InitializeSListHead@4 0041500c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__GetSystemTimeAsFileTime@4 00415010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__IsProcessorFeaturePresent@4 00415014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__TerminateProcess@8  00415018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetCurrentProcess@0 0041501c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__SetUnhandledExceptionFilter@4 00415020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__UnhandledExceptionFilter@4 00415024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__QueryPerformanceFrequency@4 00415028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__QueryPerformanceCounter@4 0041502c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__SetFilePointer@16   00415030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__ReadFile@20         00415034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__GetFileSize@8       00415038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__CreateFileA@28      0041503c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__SystemTimeToFileTime@8 00415040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__FileTimeToSystemTime@8 00415044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__FormatMessageA@28   00415048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__SetConsoleTextAttribute@8 0041504c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__TlsFree@4           00415050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__TlsSetValue@8       00415054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__TlsGetValue@4       00415058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__TlsAlloc@0          0041505c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__GetCurrentThreadId@0 00415060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__CreateThread@24     00415064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetCurrentProcessId@0 00415068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__Sleep@4             0041506c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__WaitForSingleObject@8 00415070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__ReleaseSemaphore@12 00415074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__DeleteCriticalSection@4 00415078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__TryEnterCriticalSection@4 0041507c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__LeaveCriticalSection@4 00415080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__EnterCriticalSection@4 00415084     kernel32:KERNEL32.dll
+ 0002:00000088       __imp__InitializeCriticalSection@4 00415088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp__GetLastError@0      0041508c     kernel32:KERNEL32.dll
+ 0002:00000090       __imp__GetStdHandle@4      00415090     kernel32:KERNEL32.dll
+ 0002:00000094       __imp__SetThreadPriority@8 00415094     kernel32:KERNEL32.dll
+ 0002:00000098       __imp__GetCurrentThread@0  00415098     kernel32:KERNEL32.dll
+ 0002:0000009c       __imp__WaitForMultipleObjects@16 0041509c     kernel32:KERNEL32.dll
+ 0002:000000a0       __imp__CreateEventA@16     004150a0     kernel32:KERNEL32.dll
+ 0002:000000a4       __imp__SetEvent@4          004150a4     kernel32:KERNEL32.dll
+ 0002:000000a8       __imp__CloseHandle@4       004150a8     kernel32:KERNEL32.dll
+ 0002:000000ac       \177KERNEL32_NULL_THUNK_DATA 004150ac     kernel32:KERNEL32.dll
+ 0002:000000b0       __imp___except_handler4_common 004150b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b4       __imp__longjmp             004150b4     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp__memcpy              004150b8     vcruntime:VCRUNTIME140.dll
+ 0002:000000bc       __imp__memset              004150bc     vcruntime:VCRUNTIME140.dll
+ 0002:000000c0       __imp__memmove             004150c0     vcruntime:VCRUNTIME140.dll
+ 0002:000000c4       __imp__strchr              004150c4     vcruntime:VCRUNTIME140.dll
+ 0002:000000c8       \177VCRUNTIME140_NULL_THUNK_DATA 004150c8     vcruntime:VCRUNTIME140.dll
+ 0002:000000cc       __imp__waveOutReset@4      004150cc     winmm:WINMM.dll
+ 0002:000000d0       __imp__waveOutRestart@4    004150d0     winmm:WINMM.dll
+ 0002:000000d4       __imp__waveOutPause@4      004150d4     winmm:WINMM.dll
+ 0002:000000d8       __imp__waveOutWrite@12     004150d8     winmm:WINMM.dll
+ 0002:000000dc       __imp__waveOutUnprepareHeader@12 004150dc     winmm:WINMM.dll
+ 0002:000000e0       __imp__waveOutPrepareHeader@12 004150e0     winmm:WINMM.dll
+ 0002:000000e4       __imp__waveOutClose@4      004150e4     winmm:WINMM.dll
+ 0002:000000e8       __imp__waveInGetDevCapsA@12 004150e8     winmm:WINMM.dll
+ 0002:000000ec       __imp__waveOutSetVolume@8  004150ec     winmm:WINMM.dll
+ 0002:000000f0       __imp__waveOutGetVolume@8  004150f0     winmm:WINMM.dll
+ 0002:000000f4       __imp__waveOutGetDevCapsA@12 004150f4     winmm:WINMM.dll
+ 0002:000000f8       __imp__waveOutGetNumDevs@0 004150f8     winmm:WINMM.dll
+ 0002:000000fc       __imp__waveInGetErrorTextA@12 004150fc     winmm:WINMM.dll
+ 0002:00000100       __imp__waveOutGetErrorTextA@12 00415100     winmm:WINMM.dll
+ 0002:00000104       __imp__waveInGetNumDevs@0  00415104     winmm:WINMM.dll
+ 0002:00000108       __imp__waveInOpen@24       00415108     winmm:WINMM.dll
+ 0002:0000010c       __imp__waveInClose@4       0041510c     winmm:WINMM.dll
+ 0002:00000110       __imp__waveInPrepareHeader@12 00415110     winmm:WINMM.dll
+ 0002:00000114       __imp__waveInUnprepareHeader@12 00415114     winmm:WINMM.dll
+ 0002:00000118       __imp__waveInAddBuffer@12  00415118     winmm:WINMM.dll
+ 0002:0000011c       __imp__waveInStart@4       0041511c     winmm:WINMM.dll
+ 0002:00000120       __imp__waveInStop@4        00415120     winmm:WINMM.dll
+ 0002:00000124       __imp__waveInReset@4       00415124     winmm:WINMM.dll
+ 0002:00000128       __imp__waveOutOpen@24      00415128     winmm:WINMM.dll
+ 0002:0000012c       \177WINMM_NULL_THUNK_DATA  0041512c     winmm:WINMM.dll
+ 0002:00000130       __imp__sendto@24           00415130     ws2_32:WS2_32.dll
+ 0002:00000134       __imp__send@16             00415134     ws2_32:WS2_32.dll
+ 0002:00000138       __imp__recvfrom@24         00415138     ws2_32:WS2_32.dll
+ 0002:0000013c       __imp__recv@16             0041513c     ws2_32:WS2_32.dll
+ 0002:00000140       __imp__ntohs@4             00415140     ws2_32:WS2_32.dll
+ 0002:00000144       __imp__ntohl@4             00415144     ws2_32:WS2_32.dll
+ 0002:00000148       __imp__htons@4             00415148     ws2_32:WS2_32.dll
+ 0002:0000014c       __imp__htonl@4             0041514c     ws2_32:WS2_32.dll
+ 0002:00000150       __imp__getsockopt@20       00415150     ws2_32:WS2_32.dll
+ 0002:00000154       __imp__getsockname@12      00415154     ws2_32:WS2_32.dll
+ 0002:00000158       __imp__accept@12           00415158     ws2_32:WS2_32.dll
+ 0002:0000015c       __imp__WSAGetLastError@0   0041515c     ws2_32:WS2_32.dll
+ 0002:00000160       __imp__WSACleanup@0        00415160     ws2_32:WS2_32.dll
+ 0002:00000164       __imp__WSAStartup@8        00415164     ws2_32:WS2_32.dll
+ 0002:00000168       __imp____WSAFDIsSet@8      00415168     ws2_32:WS2_32.dll
+ 0002:0000016c       __imp__select@20           0041516c     ws2_32:WS2_32.dll
+ 0002:00000170       \177WS2_32_NULL_THUNK_DATA 00415170     ws2_32:WS2_32.dll
+ 0002:00000174       __imp__free                00415174     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000178       __imp___set_new_mode       00415178     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000017c       __imp__malloc              0041517c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000180       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00415180     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000184       __imp___configthreadlocale 00415184     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000188       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00415188     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:0000018c       __imp____setusermatherr    0041518c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000190       __imp___except1            00415190     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000194       __imp___CIfmod             00415194     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000198       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00415198     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:0000019c       __imp___register_onexit_function 0041519c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001a0       __imp___controlfp_s        004151a0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001a4       __imp___register_thread_local_exe_atexit_callback 004151a4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001a8       __imp___crt_atexit         004151a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001ac       __imp___initialize_onexit_table 004151ac     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001b0       __imp___c_exit             004151b0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001b4       __imp___cexit              004151b4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001b8       __imp__exit                004151b8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001bc       __imp___seh_filter_exe     004151bc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001c0       __imp___set_app_type       004151c0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001c4       __imp____p___argc          004151c4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001c8       __imp___configure_narrow_argv 004151c8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001cc       __imp___initialize_narrow_environment 004151cc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001d0       __imp___get_initial_narrow_environment 004151d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001d4       __imp___initterm           004151d4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001d8       __imp___initterm_e         004151d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001dc       __imp___exit               004151dc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001e0       __imp____p___argv          004151e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001e4       __imp__terminate           004151e4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001e8       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 004151e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000001ec       __imp____stdio_common_vfprintf 004151ec     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001f0       __imp___set_fmode          004151f0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001f4       __imp__puts                004151f4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001f8       __imp____acrt_iob_func     004151f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000001fc       __imp____p__commode        004151fc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000200       __imp____stdio_common_vsprintf 00415200     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000204       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00415204     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000208       __imp___strnicmp           00415208     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000020c       __imp__isxdigit            0041520c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000210       __imp__isdigit             00415210     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000214       __imp__strncpy             00415214     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000218       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 00415218     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000021c       __imp__rand                0041521c     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000220       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 00415220     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00000224       __imp__CoCreateGuid@4      00415224     ole32:ole32.dll
+ 0002:00000228       \177ole32_NULL_THUNK_DATA  00415228     ole32:ole32.dll
+ 0002:0000022c       ___guard_check_icall_fptr  0041522c     MSVCRT:guard_support.obj
+ 0002:00000230       ___xc_a                    00415230     MSVCRT:initializers.obj
+ 0002:00000238       ___xc_z                    00415238     MSVCRT:initializers.obj
+ 0002:0000023c       ___xi_a                    0041523c     MSVCRT:initializers.obj
+ 0002:00000248       ___xi_z                    00415248     MSVCRT:initializers.obj
+ 0002:0000024c       ___xp_a                    0041524c     MSVCRT:initializers.obj
+ 0002:00000250       ___xp_z                    00415250     MSVCRT:initializers.obj
+ 0002:00000254       ___xt_a                    00415254     MSVCRT:initializers.obj
+ 0002:00000258       ___xt_z                    00415258     MSVCRT:initializers.obj
+ 0002:000002c0       ??_C@_0DC@MHBBCDGM@Unspecified?5audio?5device?5error?5?$CI@ 004152c0     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000002f4       ??_C@_0DG@FEDKLOFB@Unknown?5error?5from?5audio?5driver?5@ 004152f4     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:0000032c       ??_C@_0DE@DOHCBKFK@Audio?5subsystem?5not?5initialized?5@ 0041532c     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:00000360       ??_C@_0CL@NCBJPCNF@Invalid?5audio?5device?5?$CIPJMEDIA_EA@ 00415360     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:0000038c       ??_C@_0CM@LOPLLMHO@Found?5no?5audio?5devices?5?$CIPJMEDIA_@ 0041538c     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000003b8       ??_C@_0DM@DPDKGMIE@Unable?5to?5find?5default?5audio?5dev@ 004153b8     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000003f4       ??_C@_0CP@JIPJOIMB@Audio?5device?5not?5ready?5?$CIPJMEDIA_@ 004153f4     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:00000424       ??_C@_0DO@NMIGLFFA@Invalid?5or?5unsupported?5audio?5cap@ 00415424     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:00000468       ??_C@_0ED@PLJALPOA@Invalid?5or?5unsupported?5audio?5dev@ 00415468     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000004ac       ??_C@_0DM@JKDJGBNG@Bad?5or?5invalid?5audio?5device?5form@ 004154ac     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000004e8       ??_C@_0DN@BLAJILEA@Invalid?5audio?5device?5sample?5form@ 004154e8     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:00000528       ??_C@_0DE@LJJGJIEF@Bad?5audio?5latency?5setting?5?$CIPJMED@ 00415528     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:0000055c       ??_C@_0BJ@GMHLEOAL@MMSYSTEM?5native?5error?5?$CFd?$AA@ 0041555c     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:00000578       ??_C@_0CC@MFOJNIAN@Unknown?5pjmedia?9audiodev?5error?5?$CF@ 00415578     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:0000059c       ??_C@_0M@KBHHDDLP@Wave?5mapper?$AA@ 0041559c     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005a8       ??_C@_04CPNMDOAK@WMME?$AA@ 004155a8     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005b0       ??_C@_0BB@EOKKHGLD@WMME?5initialized?$AA@ 004155b0     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005c4       ??_C@_0L@HHCCMOGO@wmme_dev?4c?$AA@ 004155c4     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005d0       ??_C@_0BM@OMJMEAMB@WMME?5found?5no?5sound?5devices?$AA@ 004155d0     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005ec       ??_C@_11LOCGONAA@?$AA?$AA@ 004155ec     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000005f0       ??_C@_0BH@GEMAAOCL@WMME?5found?5?$CFd?5devices?3?$AA@ 004155f0     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000608       ??_C@_0CA@NLJGEGOG@?5dev_id?5?$CFd?3?5?$CFs?5?5?$CIin?$DN?$CFd?0?5out?$DN?$CFd?$CJ?$AA@ 00415608     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000628       ??_C@_03CCLNCNJA@PCM?$AA@  00415628     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000630       ??_C@_0HB@MKIBCFPJ@?5WaveAPI?5Sound?5player?5?$CC?$CFs?$CC?5initi@ 00415630     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000006a8       ??_C@_0HD@PIICIPL@?5WaveAPI?5Sound?5recorder?5?$CC?$CFs?$CC?5ini@ 004156a8     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:0000071c       ??_C@_0BI@BEJPJEBJ@WMME?3?5thread?5stopping?4?4?$AA@ 0041571c     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000734       ??_C@_08MOOOBPLB@wmme?9dev?$AA@ 00415734     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000740       ??_C@_04ODOGNMHC@wmme?$AA@ 00415740     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000748       ??_C@_0BN@MNACKNIN@WMME?5playback?5stream?5started?$AA@ 00415748     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000768       ??_C@_0BM@NKDLICNM@WMME?5capture?5stream?5started?$AA@ 00415768     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:00000784       ??_C@_0BN@FMJNHCPG@Stopped?5WMME?5playback?5stream?$AA@ 00415784     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000007a4       ??_C@_0BM@KCHDOGNE@Stopped?5WMME?5capture?5stream?$AA@ 004157a4     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000007c0       ??_C@_09OFDCJLJM@WMME?5base?$AA@ 004157c0     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0002:000007fc       ??_C@_07OEHJJJKF@RTP?1AVP?$AA@ 004157fc     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000804       ??_C@_02BBAPPCCJ@IN?$AA@   00415804     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000808       ??_C@_03OPDBOKBD@IP4?$AA@  00415808     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:0000080c       ??_C@_03NNAHIIJB@IP6?$AA@  0041580c     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000810       ??_C@_07HDFHIMAJ@pjmedia?$AA@ 00415810     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000818       ??_C@_08LMCBNPPN@sendrecv?$AA@ 00415818     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000824       ??_C@_07LBNDIDNE@med?9ept?$AA@ 00415824     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000830       ??_C@_0EL@BIFHLACC@Warning?3?5no?5worker?5thread?5is?5cre@ 00415830     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:0000087c       ??_C@_0L@DLFDMOGF@endpoint?4c?$AA@ 0041587c     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000888       ??_C@_05CECBHAPI@media?$AA@ 00415888     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:0000088e       ??_C@_00CNPNBAHC@?$AA@     0041588e     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000890       ??_C@_01CLKCMJKC@?5?$AA@   00415890     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00000894       ??_C@_04DAMGJPCA@file?$AA@ 00415894     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:0000089c       ??_C@_0DH@CJCCJAOK@actual?5value?$HMexpected?5riff?$DN?$CFx?$HM?$CFx@ 0041589c     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:000008d4       ??_C@_0N@EAJPAIGO@wav_player?4c?$AA@ 004158d4     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:000008e8       ??_C@_0EO@KJDBHFL@File?5player?5?8?$CF?4?$CKs?8?5created?3?5samp@ 004158e8     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:00000938       ??_C@_0BD@LPPPNKOC@File?5port?5?$CF?4?$CKs?5EOF?$AA@ 00415938     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:0000094c       ??_C@_0BL@OHCCHMIC@File?5port?5?$CF?4?$CKs?5rewinding?4?4?$AA@ 0041594c     pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0002:00000968       _pjmedia_linear2ulaw_tab   00415968     pjmedia-i386-win32-vc14-release:alaw_ulaw_table.obj
+ 0002:00004968       _pjmedia_linear2alaw_tab   00419968     pjmedia-i386-win32-vc14-release:alaw_ulaw_table.obj
+ 0002:00008968       _pjmedia_ulaw2linear_tab   0041d968     pjmedia-i386-win32-vc14-release:alaw_ulaw_table.obj
+ 0002:00008b68       _pjmedia_alaw2linear_tab   0041db68     pjmedia-i386-win32-vc14-release:alaw_ulaw_table.obj
+ 0002:00008d68       ??_C@_07GBKCPIDJ@ext?9fmt?$AA@ 0041dd68     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008d70       ??_C@_0BI@GGHCECPI@Extended?1non?9PCM?5format?$AA@ 0041dd70     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008d88       ??_C@_0L@IKNMBADD@latency?9in?$AA@ 0041dd88     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008d94       ??_C@_0CC@LIGOHOJN@Input?5latency?1buffer?5size?5settin@ 0041dd94     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008db8       ??_C@_0M@MBBBBCLJ@latency?9out?$AA@ 0041ddb8     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008dc4       ??_C@_0CD@GAINMBC@Output?5latency?1buffer?5size?5setti@ 0041ddc4     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008de8       ??_C@_06KGGLCDDG@vol?9in?$AA@ 0041dde8     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008df0       ??_C@_0BF@CCEKOJAN@Input?5volume?5setting?$AA@ 0041ddf0     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e08       ??_C@_07LBFHFBAF@vol?9out?$AA@ 0041de08     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e10       ??_C@_0BG@IBEHJHAD@Output?5volume?5setting?$AA@ 0041de10     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e28       ??_C@_08BPNDLGG@meter?9in?$AA@ 0041de28     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e34       ??_C@_0M@NCGIGNPG@Input?5meter?$AA@ 0041de34     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e40       ??_C@_09NKJLJGOJ@meter?9out?$AA@ 0041de40     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e4c       ??_C@_0N@GBEOEOEP@Output?5meter?$AA@ 0041de4c     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e5c       ??_C@_08FPHJDLBG@route?9in?$AA@ 0041de5c     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e68       ??_C@_0O@JDPFDDM@Input?5routing?$AA@ 0041de68     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e78       ??_C@_09IKMAGDNF@route?9out?$AA@ 0041de78     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e84       ??_C@_0P@JOFPIEJJ@Output?5routing?$AA@ 0041de84     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e94       ??_C@_03FNONIBCK@aec?$AA@  0041de94     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008e98       ??_C@_0BM@HPDLGLFJ@Accoustic?5echo?5cancellation?$AA@ 0041de98     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008eb4       ??_C@_08MKAPJCJE@aec?9tail?$AA@ 0041deb4     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008ec0       ??_C@_0BM@PBLLADJD@Tail?5length?5setting?5for?5AEC?$AA@ 0041dec0     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008edc       ??_C@_03NIGLNABH@vad?$AA@  0041dedc     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008ee0       ??_C@_0BJ@PEELNNPF@Voice?5activity?5detection?$AA@ 0041dee0     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008efc       ??_C@_03JPNNGDEE@cng?$AA@  0041defc     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f00       ??_C@_0BJ@MNDOFJGN@Comfort?5noise?5generation?$AA@ 0041df00     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f1c       ??_C@_03NOPFEPFL@plg?$AA@  0041df1c     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f20       ??_C@_0BI@OMEMKBHH@Packet?5loss?5concealment?$AA@ 0041df20     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f38       ??_C@_0EF@NLCNMHAD@?$CFd?5device?$CIs?$CJ?5cannot?5be?5registere@ 0041df38     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f80       ??_C@_0L@FGHHAHLM@audiodev?4c?$AA@ 0041df80     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0002:00008f8c       ??_C@_09GLMNEMC@codec?9mgr?$AA@ 0041df8c     pjmedia-i386-win32-vc14-release:codec.obj
+ 0002:00008fa8       ??_C@_08MPIAKENM@RTP?1SAVP?$AA@ 0041dfa8     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0002:00008fb4       ??_C@_08INHMCBAE@inactive?$AA@ 0041dfb4     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0002:000092f0       ??_C@_0CK@HBHLALIF@Unspecified?5PJMEDIA?5error?5?$CIPJMED@ 0041e2f0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000931c       ??_C@_0CM@KFAONKNJ@Invalid?5SDP?5descriptor?5?$CIPJMEDIA_@ 0041e31c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009348       ??_C@_0CO@ONPCFICA@Invalid?5SDP?5version?5line?5?$CIPJMEDI@ 0041e348     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009378       ??_C@_0DA@DIKNJOEJ@Invalid?5SDP?5origin?5line?5?$CIPJMEDIA@ 0041e378     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000093a8       ??_C@_0CM@DLEAGODI@Invalid?5SDP?5time?5line?5?$CIPJMEDIA_S@ 0041e3a8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000093d4       ??_C@_0DF@HNDCDPJF@SDP?5name?1subject?5line?5is?5empty?5?$CI@ 0041e3d4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000940c       ??_C@_0DC@KNNPDHKA@Invalid?5SDP?5connection?5line?5?$CIPJM@ 0041e40c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009440       ??_C@_0DM@NEDHCJGL@Missing?5SDP?5connection?5info?5line@ 0041e440     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000947c       ??_C@_0CN@JHLMEODJ@Invalid?5SDP?5attributes?5?$CIPJMEDIA_@ 0041e47c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000094ac       ??_C@_0DF@BJAALDOM@Invalid?5SDP?5rtpmap?5attribute?5?$CIPJ@ 0041e4ac     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000094e4       ??_C@_0DL@HCOGNPAF@SDP?5rtpmap?5attribute?5too?5long?5?$CIP@ 0041e4e4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009520       ??_C@_0EJ@IDNJACOO@Missing?5SDP?5rtpmap?5for?5dynamic?5p@ 0041e520     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000956c       ??_C@_0CO@DIKFNJOF@Invalid?5SDP?5media?5line?5?$CIPJMEDIA_@ 0041e56c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000959c       ??_C@_0DN@GADAENKO@No?5SDP?5payload?5format?5in?5the?5med@ 0041e59c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000095dc       ??_C@_0DL@KAILPDC@Invalid?5SDP?5payload?5type?5in?5medi@ 0041e5dc     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009618       ??_C@_0DB@BJCACDID@Invalid?5SDP?5fmtp?5attribute?5?$CIPJME@ 0041e618     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000964c       ??_C@_0DB@BKKJGGKM@Invalid?5SDP?5rtcp?5attribyte?5?$CIPJME@ 0041e64c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009680       ??_C@_0DM@JFGCNJLM@Invalid?5SDP?5media?5transport?5prot@ 0041e680     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000096bc       ??_C@_0DH@PCNCDMKM@Invalid?5SDP?5bandwidth?5info?5line?5@ 0041e6bc     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000096f8       ??_C@_0EF@CJNFLCEL@Invalid?5SDP?5negotiator?5state?5for@ 0041e6f8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009740       ??_C@_0ED@IFOJJHNO@No?5initial?5local?5SDP?5in?5SDP?5nego@ 0041e740     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009784       ??_C@_0DL@MFMHOMBE@No?5active?5SDP?5in?5SDP?5negotiator?5@ 0041e784     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000097c0       ??_C@_0DN@JGPGLEOH@No?5current?5local?1remote?5offer?1an@ 0041e7c0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009800       ??_C@_0EE@BLNHOMNC@SDP?5media?5count?5mismatch?5in?5offe@ 0041e800     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009848       ??_C@_0EG@MJOIPNIH@SDP?5media?5type?5mismatch?5in?5offer@ 0041e848     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009890       ??_C@_0EN@OPFCIOMP@SDP?5media?5transport?5type?5mismatc@ 0041e890     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000098e0       ??_C@_0ED@NGHPALDD@No?5common?5SDP?5media?5payload?5in?5a@ 0041e8e0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009928       ??_C@_0ED@HELGJJGO@No?5active?5media?5stream?5after?5neg@ 0041e928     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000996c       ??_C@_0DP@KIMEPBPF@No?5suitable?5codec?5for?5remote?5off@ 0041e96c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:000099b0       ??_C@_0EM@LLMPLGCO@No?5suitable?5telephone?9event?5for?5@ 0041e9b0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009a00       ??_C@_0EK@LPNBCGHG@No?5suitable?5answer?5for?5unknown?5r@ 0041ea00     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009a4c       ??_C@_0DM@JMBBJEKO@SDP?5media?5descriptor?5not?5equal?5?$CI@ 0041ea4c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009a88       ??_C@_0ED@KAALGBMF@Port?5in?5SDP?5media?5descriptor?5not@ 0041ea88     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009ad0       ??_C@_0EJ@FJOJLJDF@Transport?5in?5SDP?5media?5descripto@ 0041ead0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009b20       ??_C@_0EH@FMIFCFBA@Format?5in?5SDP?5media?5descriptor?5n@ 0041eb20     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009b68       ??_C@_0DK@MAHAOAHF@SDP?5connection?5line?5not?5equal?5?$CIP@ 0041eb68     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009ba4       ??_C@_0DF@HHCJAGLJ@SDP?5attributes?5not?5equal?5?$CIPJMEDI@ 0041eba4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009bdc       ??_C@_0DJ@GGABIHGL@SDP?5media?5direction?5not?5equal?5?$CIP@ 0041ebdc     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009c18       ??_C@_0DJ@FFGHKCEG@SDP?5fmtp?5attribute?5not?5equal?5?$CIPJ@ 0041ec18     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009c54       ??_C@_0DN@HLKACHFN@SDP?5rtpmap?5attribute?5not?5equal?5?$CI@ 0041ec54     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009c94       ??_C@_0DN@EALGPLFN@SDP?5session?5descriptor?5not?5equal@ 0041ec94     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009cd4       ??_C@_0DI@BLKBMMGO@SDP?5origin?5line?5not?5equal?5?$CIPJMED@ 0041ecd4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009d0c       ??_C@_0DM@HCOBINN@SDP?5name?1subject?5line?5not?5equal?5@ 0041ed0c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009d48       ??_C@_0DE@PFJJJNGL@SDP?5time?5line?5not?5equal?5?$CIPJMEDIA@ 0041ed48     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009d7c       ??_C@_0CP@ODMIIAEN@Unsupported?5media?5codec?5?$CIPJMEDIA@ 0041ed7c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009dac       ??_C@_0DG@KJBEJCIE@Codec?5internal?5creation?5error?5?$CIP@ 0041edac     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009de4       ??_C@_0DG@FOGENKNL@Codec?5frame?5is?5too?5short?5?$CIPJMEDI@ 0041ede4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009e1c       ??_C@_0DE@OLKJHMCL@PCM?5frame?5is?5too?5short?5?$CIPJMEDIA_@ 0041ee1c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009e50       ??_C@_0DF@JDAOLAOM@Invalid?5codec?5frame?5length?5?$CIPJME@ 0041ee50     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009e88       ??_C@_0DG@LLBBCNCG@Invalid?5PCM?5frame?5length?5?$CIPJMEDI@ 0041ee88     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009ec0       ??_C@_0DG@EKMGLMFL@Invalid?5codec?5mode?5?$CIno?5fmtp?$DP?$CJ?5?$CIP@ 0041eec0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009ef8       ??_C@_0DJ@NJFBGAOC@Bad?5or?5corrupted?5bitstream?5?$CIPJME@ 0041eef8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009f34       ??_C@_0DH@KOBKDDJI@Invalid?5remote?5media?5?$CIIP?$CJ?5addres@ 0041ef34     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009f6c       ??_C@_0DM@GBJMMNCF@Asymetric?5media?5codec?5is?5not?5sup@ 0041ef6c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009fa8       ??_C@_0DA@DKJJFGPE@Invalid?5media?5payload?5type?5?$CIPJME@ 0041efa8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:00009fd8       ??_C@_0DN@IGGOEBDI@Missing?5rtpmap?5in?5media?5descript@ 0041efd8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a018       ??_C@_0CO@MJBLNMMI@Invalid?5media?5type?5?$CIPJMEDIA_EINV@ 0041f018     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a048       ??_C@_0DF@NNKPPHHC@Remote?5does?5not?5support?5DTMF?5?$CIPJ@ 0041f048     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a080       ??_C@_0CJ@ECIKMCPH@Invalid?5DTMF?5digit?5?$CIPJMEDIA_RTP_@ 0041f080     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a0ac       ??_C@_0DN@EHCPFJJN@Remote?5does?5not?5support?5RFC?52833@ 0041f0ac     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a0ec       ??_C@_0BN@LMCOIKH@Bad?5format?5?$CIPJMEDIA_EBADFMT?$CJ?$AA@ 0041f0ec     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a10c       ??_C@_0DB@GBKLBGPK@Unsupported?5media?5type?5?$CIPJMEDIA_@ 0041f10c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a140       ??_C@_0CI@KDAMKHEL@Invalid?5RTP?5packet?5?$CIPJMEDIA_RTP_@ 0041f140     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a168       ??_C@_0DL@KLDJIJLI@Invalid?5RTP?5packing?5?$CIinternal?5er@ 0041f168     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a1a4       ??_C@_0CJ@NGKNCMFA@Invalid?5RTP?5version?5?$CIPJMEDIA_RTP@ 0041f1a4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a1d0       ??_C@_0DC@PFPAEINL@RTP?5packet?5SSRC?5id?5mismatch?5?$CIPJM@ 0041f1d0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a204       ??_C@_0DF@KDOADJLK@RTP?5packet?5payload?5type?5mismatch@ 0041f204     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a23c       ??_C@_0CP@OBFABIAL@Invalid?5RTP?5packet?5length?5?$CIPJMED@ 0041f23c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a26c       ??_C@_0DB@HLHLKEBJ@RTP?5session?5restarted?5?$CIPJMEDIA_R@ 0041f26c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a2a0       ??_C@_0DG@OPPFJBGL@RTP?5session?5in?5probation?5?$CIPJMEDI@ 0041f2a0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a2d8       ??_C@_0DI@LFLLIJCB@Bad?5sequence?5number?5in?5RTP?5packe@ 0041f2d8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a310       ??_C@_0EE@PHAAOPAG@RTP?5media?5port?5destination?5is?5no@ 0041f310     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a354       ??_C@_0CO@BFKJOFNE@RTP?5is?5not?5configured?5?$CIPJMEDIA_R@ 0041f354     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a384       ??_C@_0DI@MEKDIPIO@Media?5ports?5are?5not?5compatible?5?$CI@ 0041f384     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a3c0       ??_C@_0EA@EJPEOGMK@Media?5ports?5have?5incompatible?5cl@ 0041f3c0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a400       ??_C@_0EL@KOIIKBFP@Media?5ports?5have?5incompatible?5sa@ 0041f400     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a44c       ??_C@_0DL@FLCJCEPI@Media?5ports?5have?5incompatible?5me@ 0041f44c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a488       ??_C@_0EA@CDICINEI@Media?5ports?5have?5incompatible?5bi@ 0041f488     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a4c8       ??_C@_0EB@DHIDGGBD@Media?5ports?5have?5incompatible?5by@ 0041f4c8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a510       ??_C@_0EG@FBPNENMF@Media?5ports?5have?5incompatible?5nu@ 0041f510     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a558       ??_C@_0CO@CKCFJDML@Not?5a?5valid?5WAVE?5file?5?$CIPJMEDIA_E@ 0041f558     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a588       ??_C@_0DD@FKNCKLNB@Unsupported?5WAVE?5file?5format?5?$CIPJ@ 0041f588     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a5bc       ??_C@_0CM@HKHLDPDN@WAVE?5file?5too?5short?5?$CIPJMEDIA_EWA@ 0041f5bc     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a5e8       ??_C@_0DP@HHAKLPGE@Sound?5frame?5too?5large?5for?5file?5b@ 0041f5e8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a628       ??_C@_0CK@EMOCNCPF@Unsupported?5AVI?5file?5?$CIPJMEDIA_EA@ 0041f628     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a654       ??_C@_0DF@PKIKHNPA@No?5suitable?5sound?5capture?5device@ 0041f654     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a68c       ??_C@_0DH@NACBPKOD@No?5suitable?5sound?5playback?5devic@ 0041f68c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a6c4       ??_C@_0CO@FCJGKBG@Invalid?5sound?5device?5ID?5?$CIPJMEDIA@ 0041f6c4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a6f8       ??_C@_0EB@GAMOPGD@Invalid?5sample?5format?5for?5sound?5@ 0041f6f8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a740       ??_C@_0FA@HAKEALMK@SRTP?5crypto?9suite?5name?5not?5match@ 0041f740     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a790       ??_C@_0EF@DCMAHBDI@Invalid?5SRTP?5key?5length?5for?5spec@ 0041f790     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a7d8       ??_C@_0DL@BINEGGLM@Unsupported?5SRTP?5crypto?9suite?5?$CIP@ 0041f7d8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a814       ??_C@_0DP@DNDEFJI@SRTP?5SDP?5contains?5ambigue?5answer@ 0041f814     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a854       ??_C@_0DL@PPDCJAFI@Duplicated?5SRTP?5crypto?5tag?5?$CIPJME@ 0041f854     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a890       ??_C@_0DK@EIEPDNB@Invalid?5SRTP?5crypto?5attribute?5?$CIP@ 0041f890     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a8cc       ??_C@_0DH@JABOECDK@Invalid?5SRTP?5crypto?5tag?5?$CIPJMEDIA@ 0041f8cc     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a908       ??_C@_0EE@HKDIFKLN@Invalid?5SDP?5media?5transport?5for?5@ 0041f908     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a94c       ??_C@_0DM@OPHJDJCK@SRTP?5crypto?5attribute?5required?5?$CI@ 0041f94c     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a988       ??_C@_0EO@MOMMHEEA@Secure?5transport?5required?5in?5SDP@ 0041f988     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000a9d8       ??_C@_0EM@HBHPHIDH@No?5matching?5SRTP?5crypto?9suite?5af@ 0041f9d8     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000aa28       ??_C@_0EN@OKMMPCBN@No?5certificate?5supplied?5by?5peer?5@ 0041fa28     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000aa78       ??_C@_0FM@DHHDFBCG@Fingerprint?5from?5signalling?5not?5@ 0041fa78     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000aad4       ??_C@_0BJ@JGEGOKIK@Unknown?5pjmedia?5error?5?$CFd?$AA@ 0041fad4     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000aaf0       ??_C@_0N@FJKIJMGM@Key?5too?5long?$AA@ 0041faf0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ab00       ??_C@_0CH@PPONEAL@Failed?5decoding?5crypto?5key?5from?5@ 0041fb00     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ab28       ??_C@_0BP@CAGNCNCA@Failed?5to?5restart?5SRTP?0?5err?$DN?$CFs?$AA@ 0041fb28     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ab48       ??_C@_0CO@EDHKLEPP@Failed?5to?5unprotect?5SRTP?0?5pkt?5si@ 0041fb48     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ab78       ??_C@_0CP@OAIPELPD@Failed?5to?5unprotect?5SRTCP?0?5pkt?5s@ 0041fb78     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000aba8       ??_C@_0CN@IMPBKLBH@SRTP?5failed?5stop?5underlying?5medi@ 0041fba8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000abf8       ??_C@_06LAEHEPPF@crypto?$AA@ 0041fbf8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac00       ??_C@_04HIBGFPH@NULL?$AA@  0041fc00     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac08       ??_C@_0BI@FCCBBIDC@AES_256_CM_HMAC_SHA1_80?$AA@ 0041fc08     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac20       ??_C@_0BI@GMECJFFB@AES_256_CM_HMAC_SHA1_32?$AA@ 0041fc20     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac38       ??_C@_0BI@OADHPNHF@AES_CM_128_HMAC_SHA1_80?$AA@ 0041fc38     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac50       ??_C@_0BI@NOFEHABG@AES_CM_128_HMAC_SHA1_32?$AA@ 0041fc50     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ac68       ??_C@_0EB@EJGHAKCH@Warning?3?5simple?5random?5generator@ 0041fc68     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000acac       ??_C@_0BB@HGEADDBB@transport_srtp?4c?$AA@ 0041fcac     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000acc0       ??_C@_0CE@BAIPFCEP@Failed?5encoding?5plain?5key?5to?5bas@ 0041fcc0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ace4       ??_C@_0BA@OGAKIHAO@?$CFd?5?$CFs?5inline?3?$CFs?$AA@ 0041fce4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000acf4       ??_C@_0BP@IBJNGPHO@Attribute?5crypto?5expecting?5tag?$AA@ 0041fcf4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ad14       ??_C@_0CI@IIDGBGP@Attribute?5crypto?5expecting?5crypt@ 0041fd14     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ad3c       ??_C@_02LMMGGCAJ@?3?5?$AA@ 0041fd3c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ad40       ??_C@_0CG@JCJFEHFF@Attribute?5crypto?5expecting?5key?5m@ 0041fd40     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ad68       ??_C@_06OGMBMJA@inline?$AA@ 0041fd68     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ad70       ??_C@_0DC@FIGAPMKM@Attribute?5crypto?5key?5method?5?8?$CF?4?$CK@ 0041fd70     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ada4       ??_C@_02MINBJDHL@?$HM?5?$AA@ 0041fda4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ada8       ??_C@_0BP@FKKPLPLE@Attribute?5crypto?5expecting?5key?$AA@ 0041fda8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000adc8       ??_C@_02MFDMBIJM@ok?$AA@   0041fdc8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000adcc       ??_C@_0BE@KFOIPNMM@unspecified?5failure?$AA@ 0041fdcc     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ade0       ??_C@_0BG@LENPEKHL@unsupported?5parameter?$AA@ 0041fde0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000adf8       ??_C@_0BJ@DGLNBGGB@couldn?8t?5allocate?5memory?$AA@ 0041fdf8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae14       ??_C@_0BN@LJIJFBAJ@couldn?8t?5deallocate?5properly?$AA@ 0041fe14     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae34       ??_C@_0BE@KBPICNEA@couldn?8t?5initialize?$AA@ 0041fe34     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae48       ??_C@_0CI@FEPPFOBO@can?8t?5process?5as?5much?5data?5as?5re@ 0041fe48     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae70       ??_C@_0BH@DJJHFLDI@authentication?5failure?$AA@ 0041fe70     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae88       ??_C@_0P@MHOCHBCE@cipher?5failure?$AA@ 0041fe88     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000ae98       ??_C@_0CA@LIFPFHJ@replay?5check?5failed?5?$CIbad?5index?$CJ?$AA@ 0041fe98     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000aeb8       ??_C@_0CE@GCMJOMFK@replay?5check?5failed?5?$CIindex?5too?5o@ 0041feb8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000aedc       ??_C@_0BO@KLFALCF@algorithm?5failed?5test?5routine?$AA@ 0041fedc     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000aefc       ??_C@_0BG@JKFIFBMN@unsupported?5operation?$AA@ 0041fefc     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000af14       ??_C@_0BN@PDJKDLOF@no?5appropriate?5context?5found?$AA@ 0041ff14     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000af34       ??_C@_0CF@DOHHPHGD@unable?5to?5perform?5desired?5valida@ 0041ff34     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000af5c       ??_C@_0BH@NKHPNDDN@can?8t?5use?5key?5any?5more?$AA@ 0041ff5c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000af74       ??_C@_0BH@CDHGOGDE@error?5in?5use?5of?5socket?$AA@ 0041ff74     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000af8c       ??_C@_0BL@DJFHEKEC@error?5in?5use?5POSIX?5signals?$AA@ 0041ff8c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000afa8       ??_C@_0BD@HFMCMINA@nonce?5check?5failed?$AA@ 0041ffa8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000afbc       ??_C@_0BD@FCFDDPHP@couldn?8t?5read?5data?$AA@ 0041ffbc     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000afd0       ??_C@_0BE@PIHIJLHG@couldn?8t?5write?5data?$AA@ 0041ffd0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000afe4       ??_C@_0BD@PIIFGNCP@error?5pasring?5data?$AA@ 0041ffe4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000aff8       ??_C@_0BE@FFKLLGEP@error?5encoding?5data?$AA@ 0041fff8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b00c       ??_C@_0BN@OEPMNKMP@error?5while?5using?5semaphores?$AA@ 0042000c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b02c       ??_C@_0BI@JNCDFEKK@error?5while?5using?5pfkey?$AA@ 0042002c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b044       ??_C@_0BJ@BOBCJFAN@Unknown?5libsrtp?5error?5?$CFd?$AA@ 00420044     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b060       ??_C@_0BB@JENPEJDI@?9?9key?5too?5long?9?9?$AA@ 00420060     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b074       ??_C@_0O@LPFLKIMI@TX?3?5?$CFs?5key?$DN?$CFs?$AA@ 00420074     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b084       ??_C@_05EPPOHEBK@?5auth?$AA@ 00420084     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b08c       ??_C@_04PIHNPOJJ@?5enc?$AA@ 0042008c     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b094       ??_C@_0BA@BONGIHBG@TX?3?5disable?$CFs?$CFs?$AA@ 00420094     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b0a4       ??_C@_0O@EHJJODHO@RX?3?5?$CFs?5key?$DN?$CFs?$AA@ 004200a4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b0b4       ??_C@_0BA@ENEHOOPC@RX?3?5disable?$CFs?$CFs?$AA@ 004200b4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b0c4       ??_C@_0CG@KDAPJFOB@Failed?5to?5dealloc?5RX?5SRTP?5contex@ 004200c4     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b0ec       ??_C@_0CG@CHCMAIDE@Failed?5to?5dealloc?5TX?5SRTP?5contex@ 004200ec     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b158       ??_C@_04IFCNACLH@pj?$CFp?$AA@ 00420158     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b160       ??_C@_0BA@NGJFHJA@PJLIB?1No?5memory?$AA@ 00420160     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b170       ??_C@_0BP@NGEKBPIB@pjlib?5?$CFs?5for?5win32?5initialized?$AA@ 00420170     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b190       ??_C@_0BA@FNCACAIG@os_core_win32?4c?$AA@ 00420190     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b1a0       ??_C@_0CI@EAKIIBBA@Main?5thread?5stack?5max?5usage?$DN?$CFu?5b@ 004201a0     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b1c8       ??_C@_0DP@GBKMOCOI@c?3?2project?2python?2pjproject?92?47?4@ 004201c8     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b208       ??_C@_05KHEDLION@thr?$CFp?$AA@ 00420208     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b210       ??_C@_0CD@GPHECFNA@Thread?5stack?5max?5usage?$DN?$CFu?5by?5?$CFs?3@ 00420210     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b234       ??_C@_05EJDHHBFJ@mtx?$CFp?$AA@ 00420234     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0002:0000b300       ??_C@_0BM@FLPPOGAG@Unknown?5Error?5?$CIPJ_EUNKNOWN?$CJ?$AA@ 00420300     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b31c       ??_C@_0CA@DCLOOJGD@Pending?5operation?5?$CIPJ_EPENDING?$CJ?$AA@ 0042031c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b33c       ??_C@_0CO@GABEOAFF@Too?5many?5connecting?5sockets?5?$CIPJ_@ 0042033c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b36c       ??_C@_0CG@CBCJBJGD@Invalid?5value?5or?5argument?5?$CIPJ_EI@ 0042036c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b394       ??_C@_0CA@GJABNEKD@Name?5too?5long?5?$CIPJ_ENAMETOOLONG?$CJ?$AA@ 00420394     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b3b4       ??_C@_0BJ@JNKLPII@Not?5found?5?$CIPJ_ENOTFOUND?$CJ?$AA@ 004203b4     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b3d0       ??_C@_0BO@GOLCMJKK@Not?5enough?5memory?5?$CIPJ_ENOMEM?$CJ?$AA@ 004203d0     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b3f0       ??_C@_0BI@HHGDCAID@BUG?5DETECTED?$CB?5?$CIPJ_EBUG?$CJ?$AA@ 004203f0     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b408       ??_C@_0CD@JOGIDHPJ@Operation?5timed?5out?5?$CIPJ_ETIMEDOU@ 00420408     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b42c       ??_C@_0DF@MIFNAIHL@Too?5many?5objects?5of?5the?5specifie@ 0042042c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b464       ??_C@_0BK@OMPILOH@Object?5is?5busy?5?$CIPJ_EBUSY?$CJ?$AA@ 00420464     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b480       ??_C@_0CP@BAIBJOJE@Option?1operation?5is?5not?5supporte@ 00420480     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b4b0       ??_C@_0CC@OEEEEEML@Invalid?5operation?5?$CIPJ_EINVALIDOP@ 004204b0     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b4d4       ??_C@_0CE@KDDMJLGF@Operation?5cancelled?5?$CIPJ_ECANCELL@ 004204d4     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b4f8       ??_C@_0CD@LODOFNLC@Object?5already?5exists?5?$CIPJ_EEXIST@ 004204f8     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b51c       ??_C@_0BG@GMBDFNLN@End?5of?5file?5?$CIPJ_EEOF?$CJ?$AA@ 0042051c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b534       ??_C@_0BN@PCCNBFLN@Size?5is?5too?5big?5?$CIPJ_ETOOBIG?$CJ?$AA@ 00420534     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b554       ??_C@_0DB@FDCHLEID@gethostbyname?$CI?$CJ?5has?5returned?5err@ 00420554     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b588       ??_C@_0CB@MGGLJMNO@Size?5is?5too?5short?5?$CIPJ_ETOOSMALL?$CJ@ 00420588     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b5ac       ??_C@_0BG@NBDJGAFI@Ignored?5?$CIPJ_EIGNORED?$CJ?$AA@ 004205ac     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b5c4       ??_C@_0CH@OGOOBJBE@IPv6?5is?5not?5supported?5?$CIPJ_EIPV6N@ 004205c4     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b5ec       ??_C@_0CK@DJAHHNOI@Unsupported?5address?5family?5?$CIPJ_E@ 004205ec     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b618       ??_C@_0CD@PDGCJOJH@Object?5no?5longer?5exists?5?$CIPJ_EGON@ 00420618     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b63c       ??_C@_0CI@LBHALONI@Socket?5is?5in?5bad?5state?5?$CIPJ_ESOCK@ 0042063c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b664       ??_C@_0BH@ONDLFCEA@Unknown?5pjlib?5error?5?$CFd?$AA@ 00420664     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b67c       ??_C@_07PBILKAFL@Success?$AA@ 0042067c     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b684       ??_C@_0BB@BIKLJNJD@Unknown?5error?5?$CFd?$AA@ 00420684     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b698       ??_C@_0DG@MEDFBCEA@c?3?2project?2python?2pjproject?92?47?4@ 00420698     pjlib-i386-win32-vc14-release:pool.obj
+ 0002:0000b6d0       ??_C@_0DO@NAHMCBIL@c?3?2project?2python?2pjproject?92?47?4@ 004206d0     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b710       ??_C@_0M@IGFPEOLJ@cachingpool?$AA@ 00420710     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b71c       ??_C@_0DD@ECGDPCBA@Pool?5is?5not?5released?5by?5applicat@ 0042071c     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b750       ??_C@_0BH@BBPHJKOA@?5Dumping?5caching?5pool?3?$AA@ 00420750     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b768       ??_C@_08COPEICHG@cachpool?$AA@ 00420768     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b774       ??_C@_0CN@DOKPIIOH@?5?5?5Capacity?$DN?$CFu?0?5max_capacity?$DN?$CFu?0@ 00420774     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b7a4       ??_C@_0BM@IDLDGCC@?5?5Dumping?5all?5active?5pools?3?$AA@ 004207a4     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b7c0       ??_C@_0CA@MMLIKIEG@?5?5?5?$CF16s?3?5?$CF8d?5of?5?$CF8d?5?$CI?$CFd?$CF?$CF?$CJ?5used?$AA@ 004207c0     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b7e0       ??_C@_0CB@GKBJPDKG@?5?5Total?5?$CF9d?5of?5?$CF9d?5?$CI?$CFd?5?$CF?$CF?$CJ?5used?$CB@ 004207e0     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0002:0000b808       ??_C@_0EE@EDBOPGME@c?3?2project?2python?2pjproject?92?47?4@ 00420808     pjlib-i386-win32-vc14-release:pool_policy_malloc.obj
+ 0002:0000b84c       ??_C@_0DI@OGMKBLON@c?3?2project?2python?2pjproject?92?47?4@ 0042084c     pjlib-i386-win32-vc14-release:string.obj
+ 0002:0000ba18       ??_C@_0CD@FNMHLHMI@Interrupted?5system?5call?5?$CIWSAEINT@ 00420a18     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000ba3c       ??_C@_0BL@OKPDNKLH@Bad?5file?5number?5?$CIWSAEBADF?$CJ?$AA@ 00420a3c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000ba58       ??_C@_0BO@BMBEEPBP@Permission?5denied?5?$CIWSAEACCES?$CJ?$AA@ 00420a58     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000ba78       ??_C@_0BI@LAKHPJJ@Bad?5address?5?$CIWSAEFAULT?$CJ?$AA@ 00420a78     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000ba90       ??_C@_0BN@FEIDINKH@Invalid?5argument?5?$CIWSAEINVAL?$CJ?$AA@ 00420a90     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bab0       ??_C@_0CC@HMKKNDGL@Too?5many?5open?5sockets?5?$CIWSAEMFILE@ 00420ab0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bad4       ??_C@_0CH@GCPPFMGM@Operation?5would?5block?5?$CIWSAEWOULD@ 00420ad4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bafc       ??_C@_0CL@DKGHEPCD@Operation?5now?5in?5progress?5?$CIWSAEI@ 00420afc     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bb28       ??_C@_0CM@BEMCBKDH@Operation?5already?5in?5progress?5?$CIW@ 00420b28     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bb54       ??_C@_0CN@PAFKDEBN@Socket?5operation?5on?5non?9socket?5?$CI@ 00420b54     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bb84       ??_C@_0CP@HCDICECK@Destination?5address?5required?5?$CIWS@ 00420b84     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bbb4       ??_C@_0BP@LNFPBFEK@Message?5too?5long?5?$CIWSAEMSGSIZE?$CJ?$AA@ 00420bb4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bbd4       ??_C@_0CP@MMIMIEMF@Protocol?5wrong?5type?5for?5socket?5?$CI@ 00420bd4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bc04       ??_C@_0CF@HNFLHOHA@Bad?5protocol?5option?5?$CIWSAENOPROTO@ 00420c04     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bc2c       ??_C@_0CM@HPGHEHCE@Protocol?5not?5supported?5?$CIWSAEPROT@ 00420c2c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bc58       ??_C@_0CP@JLBNHCOL@Socket?5type?5not?5supported?5?$CIWSAES@ 00420c58     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bc88       ??_C@_0DC@GJMFANID@Operation?5not?5supported?5on?5socke@ 00420c88     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bcbc       ??_C@_0DA@GFNBENIG@Protocol?5family?5not?5supported?5?$CIW@ 00420cbc     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bcec       ??_C@_0CP@MMKHGIFC@Address?5family?5not?5supported?5?$CIWS@ 00420cec     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bd1c       ??_C@_0CH@OCKNFBKE@Address?5already?5in?5use?5?$CIWSAEADDR@ 00420d1c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bd44       ??_C@_0DC@FJJPJPOD@Can?8t?5assign?5requested?5address?5?$CI@ 00420d44     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bd78       ??_C@_0BO@IICKDHLJ@Network?5is?5down?5?$CIWSAENETDOWN?$CJ?$AA@ 00420d78     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bd98       ??_C@_0CI@NKJAACME@Network?5is?5unreachable?5?$CIWSAENETU@ 00420d98     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bdc0       ??_C@_0CE@LJEEEFEC@Net?5connection?5reset?5?$CIWSAENETRES@ 00420dc0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bde4       ??_C@_0DD@PGDIHOBG@Software?5caused?5connection?5abort@ 00420de4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000be18       ??_C@_0CJ@PJHCFAAN@Connection?5reset?5by?5peer?5?$CIWSAECO@ 00420e18     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000be44       ??_C@_0CH@EKNGIMKN@No?5buffer?5space?5available?5?$CIWSAEN@ 00420e44     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000be6c       ??_C@_0CJ@JOPBNNOD@Socket?5is?5already?5connected?5?$CIWSA@ 00420e6c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000be98       ??_C@_0CG@CECDMHLL@Socket?5is?5not?5connected?5?$CIWSAENOT@ 00420e98     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bec0       ??_C@_0DA@JGJMJPNM@Can?8t?5send?5after?5socket?5shutdown@ 00420ec0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bef0       ??_C@_0DE@CAILNFFE@Too?5many?5references?0?5can?8t?5splic@ 00420ef0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bf24       ??_C@_0CE@IIKHBGF@Connection?5timed?5out?5?$CIWSAETIMEDO@ 00420f24     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bf48       ??_C@_0CF@JMKFBJH@Connection?5refused?5?$CIWSAECONNREFU@ 00420f48     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bf70       ??_C@_0CN@FCKBNFMB@Too?5many?5levels?5of?5symbolic?5link@ 00420f70     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bfa0       ??_C@_0CF@MOFKOMBB@File?5name?5too?5long?5?$CIWSAENAMETOOL@ 00420fa0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bfc8       ??_C@_0BM@NCJCEEDP@Host?5is?5down?5?$CIWSAEHOSTDOWN?$CJ?$AA@ 00420fc8     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000bfe4       ??_C@_0CD@ECJOJHBH@No?5route?5to?5host?5?$CIWSAEHOSTUNREAC@ 00420fe4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c008       ??_C@_0CD@NEFLEHEG@Directory?5not?5empty?5?$CIWSAENOTEMPT@ 00421008     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c02c       ??_C@_0CB@GPCGLHOJ@Too?5many?5processes?5?$CIWSAEPROCLIM?$CJ@ 0042102c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c050       ??_C@_0BL@IGHJMJKO@Too?5many?5users?5?$CIWSAEUSERS?$CJ?$AA@ 00421050     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c06c       ??_C@_0CA@MIOFDKMA@Disc?5quota?5exceeded?5?$CIWSAEDQUOT?$CJ?$AA@ 0042106c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c08c       ??_C@_0CC@IMLIDHNH@Stale?5NFS?5file?5handle?5?$CIWSAESTALE@ 0042108c     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c0b0       ??_C@_0CP@MLAFGPOA@Too?5many?5levels?5of?5remote?5in?5pat@ 004210b0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c0e0       ??_C@_0CP@IBAEMKGH@Network?5system?5is?5unavailable?5?$CIW@ 004210e0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c110       ??_C@_0DC@BLAKHMMJ@Winsock?5version?5out?5of?5range?5?$CIWS@ 00421110     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c144       ??_C@_0CO@HPDHHDHA@WSAStartup?5not?5yet?5called?5?$CIWSANO@ 00421144     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c174       ??_C@_0CL@GFDHEKLB@Graceful?5shutdown?5in?5progress?5?$CIW@ 00421174     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c1a0       ??_C@_0CD@OEALOMDH@Host?5not?5found?5?$CIWSAHOST_NOT_FOUN@ 004211a0     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c1c4       ??_C@_0DB@KFPHELLI@No?5host?5data?5of?5that?5type?5was?5fo@ 004211c4     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c1f8       ??_C@_0BE@JPHLLAEM@Win32?5error?5code?5?$CFu?$AA@ 004211f8     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000c20c       ??_C@_0DF@HIKEKPC@c?3?2project?2python?2pjproject?92?47?4@ 0042120c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c244       ??_C@_06DDFOEFIF@FATAL?3?$AA@ 00421244     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c24c       ??_C@_06PONDCDME@ERROR?3?$AA@ 0042124c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c254       ??_C@_06OHJPOJDB@?5WARN?3?$AA@ 00421254     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c25c       ??_C@_06ICKKLHPE@?5INFO?3?$AA@ 0042125c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c264       ??_C@_06DNOFLLB@DEBUG?3?$AA@ 00421264     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c26c       ??_C@_06ELIFFDKB@TRACE?3?$AA@ 0042126c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c274       ??_C@_06HGKAKJPG@DETRC?3?$AA@ 00421274     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c27c       ??_C@_03KOEHGMDN@Sun?$AA@  0042127c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c280       ??_C@_03PDAGKDH@Mon?$AA@   00421280     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c284       ??_C@_03NAGEINEP@Tue?$AA@  00421284     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c288       ??_C@_03MHOMLAJA@Wed?$AA@  00421288     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c28c       ??_C@_03IOFIKPDN@Thu?$AA@  0042128c     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c290       ??_C@_03IDIOELNC@Fri?$AA@  00421290     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c294       ??_C@_03FEFJNEK@Sat?$AA@   00421294     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c298       ??_C@_0BO@BGMDCDKP@?$DMlogging?5error?3?5msg?5too?5long?$DO?$AA@ 00421298     pjlib-i386-win32-vc14-release:log.obj
+ 0002:0000c2b8       ??_C@_05LIJONKFG@ioq?$CFp?$AA@ 004212b8     pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0002:0000c2c0       ??_C@_0CA@IMDCINDN@select?$CI?$CJ?5I?1O?5Queue?5created?5?$CI?$CFp?$CJ?$AA@ 004212c0     pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0002:0000c2e0       ??_C@_05PHKAINEA@pjlib?$AA@ 004212e0     pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0002:0000c2e8       _PJ_AF_UNSPEC              004212e8     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c2ec       _PJ_AF_UNIX                004212ec     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c2f0       _PJ_AF_INET                004212f0     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c2f4       _PJ_AF_INET6               004212f4     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c2f8       _PJ_AF_PACKET              004212f8     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c2fc       _PJ_AF_IRDA                004212fc     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c300       _PJ_SOCK_STREAM            00421300     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c304       _PJ_SOCK_DGRAM             00421304     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c308       _PJ_SOCK_RAW               00421308     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c30c       _PJ_SOCK_RDM               0042130c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c310       _PJ_SOL_SOCKET             00421310     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c314       _PJ_SOL_IP                 00421314     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c318       _PJ_SOL_TCP                00421318     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c31c       _PJ_SOL_UDP                0042131c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c320       _PJ_SOL_IPV6               00421320     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c324       _PJ_IP_TOS                 00421324     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c328       _PJ_IPTOS_LOWDELAY         00421328     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c32c       _PJ_IPTOS_THROUGHPUT       0042132c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c330       _PJ_IPTOS_RELIABILITY      00421330     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c334       _PJ_IPTOS_MINCOST          00421334     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c338       _PJ_IPV6_TCLASS            00421338     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c33c       _PJ_SO_TYPE                0042133c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c340       _PJ_SO_RCVBUF              00421340     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c344       _PJ_SO_SNDBUF              00421344     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c348       _PJ_TCP_NODELAY            00421348     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c34c       _PJ_SO_REUSEADDR           0042134c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c350       _PJ_SO_NOSIGPIPE           00421350     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c354       _PJ_SO_PRIORITY            00421354     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c358       _PJ_IP_MULTICAST_IF        00421358     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c35c       _PJ_IP_MULTICAST_TTL       0042135c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c360       _PJ_IP_MULTICAST_LOOP      00421360     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c364       _PJ_IP_ADD_MEMBERSHIP      00421364     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c368       _PJ_IP_DROP_MEMBERSHIP     00421368     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c36c       _PJ_MSG_OOB                0042136c     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c370       _PJ_MSG_PEEK               00421370     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c374       _PJ_MSG_DONTROUTE          00421374     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c378       ??_C@_0DK@DIOLNGMP@c?3?2project?2python?2pjproject?92?47?4@ 00421378     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0002:0000c3b4       ??_C@_0CD@KFHCCJFN@?$CB?$CB?$CBFATAL?3?5unhandled?5exception?5?$CFs@ 004213b4     pjlib-i386-win32-vc14-release:except.obj
+ 0002:0000c3d8       ??_C@_08PDFMOJIE@except?4c?$AA@ 004213d8     pjlib-i386-win32-vc14-release:except.obj
+ 0002:0000c3e4       ??_C@_0N@GJOLEKJC@?$DMInvalid?5ID?$DO?$AA@ 004213e4     pjlib-i386-win32-vc14-release:except.obj
+ 0002:0000c3f4       ??_C@_0N@LJPLLMIL@exception?5?$CFd?$AA@ 004213f4     pjlib-i386-win32-vc14-release:except.obj
+ 0002:0000c404       ??_C@_0DG@JBHEGDEG@c?3?2project?2python?2pjproject?92?47?4@ 00421404     pjlib-i386-win32-vc14-release:rand.obj
+ 0002:0000c43c       _PJ_GUID_STRING_LENGTH     0042143c     pjlib-i386-win32-vc14-release:guid_win32.obj
+ 0002:0000c440       ??_C@_0DM@GDELPJIA@c?3?2project?2python?2pjproject?92?47?4@ 00421440     pjlib-i386-win32-vc14-release:guid_win32.obj
+ 0002:0000c47c       ??_C@_05MLCBJGBM@2?47?42?$AA@ 0042147c     pjlib-i386-win32-vc14-release:config.obj
+ 0002:0000c484       ??_C@_08DOCHLGNA@config?4c?$AA@ 00421484     pjlib-i386-win32-vc14-release:config.obj
+ 0002:0000c490       ??_C@_0ED@BLNABEPM@c?3?2project?2python?2pjproject?92?47?4@ 00421490     pjlib-i386-win32-vc14-release:log_writer_stdout.obj
+ 0002:0000c4d4       ??_C@_02DKCKIIND@?$CFs?$AA@ 004214d4     pjlib-i386-win32-vc14-release:log_writer_stdout.obj
+ 0002:0000c4d8       ??_C@_0DH@GDJPADL@c?3?2project?2python?2pjproject?92?47?4@ 004214d8     pjlib-i386-win32-vc14-release:types.obj
+ 0002:0000c510       __real@3ff0000000000000    00421510     pjlib-i386-win32-vc14-release:os_timestamp_common.obj
+ 0002:0000c518       __real@408f400000000000    00421518     pjlib-i386-win32-vc14-release:os_timestamp_common.obj
+ 0002:0000c520       ??_C@_0DN@LFAIDGDP@c?3?2project?2python?2pjproject?92?47?4@ 00421520     pjlib-i386-win32-vc14-release:sock_select.obj
+ 0002:0000c560       ??_C@_04DKFOEDJA@srtp?$AA@ 00421560     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c568       ??_C@_0CD@KFGKPJOG@?$CFs?3?5cloning?5stream?5?$CISSRC?3?50x?$CF08x@ 00421568     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c58c       ??_C@_0BG@DDGAJBGL@?$CFs?3?5srtp?5key?5len?3?5?$CFd?6?$AA@ 0042158c     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c5a4       ??_C@_0BH@DGNFCKJN@?$CFs?3?5srtcp?5key?5len?3?5?$CFd?6?$AA@ 004215a4     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c5bc       ??_C@_0BG@DMEGGANK@?$CFs?3?5base?5key?5len?3?5?$CFd?6?$AA@ 004215bc     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c5d4       ??_C@_0BF@HLIACONN@?$CFs?3?5kdf?5key?5len?3?5?$CFd?6?$AA@ 004215d4     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c5ec       ??_C@_0BG@BGKGMHMB@?$CFs?3?5rtp?5salt?5len?3?5?$CFd?6?$AA@ 004215ec     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c604       ??_C@_0BE@PGOGLMMP@?$CFs?3?5cipher?5key?3?5?$CFs?6?$AA@ 00421604     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c618       ??_C@_0CN@BDCDAMHJ@?$CFs?3?5found?5rtp_salt_len?5?$DO?50?0?5gene@ 00421618     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c648       ??_C@_0BF@GHNDNNEA@?$CFs?3?5cipher?5salt?3?5?$CFs?6?$AA@ 00421648     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c660       ??_C@_0BP@LJKEDGBP@?$CFs?3?5extensions?5cipher?5key?3?5?$CFs?6?$AA@ 00421660     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c680       ??_C@_0DF@NJKDAIDN@?$CFs?3?5found?5rtp_xtn_hdr_salt_len?5?$DO@ 00421680     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c6b8       ??_C@_0CA@OBEPENBO@?$CFs?3?5extensions?5cipher?5salt?3?5?$CFs?6?$AA@ 004216b8     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c6d8       ??_C@_0BE@HGKFNAFC@?$CFs?3?5auth?5key?3?5?5?5?$CFs?6?$AA@ 004216d8     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c6ec       ??_C@_0BH@KOPGGCNO@?$CFs?3?5rtcp?5salt?5len?3?5?$CFd?6?$AA@ 004216ec     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c704       ??_C@_0DD@DNDBGLG@?$CFs?3?5found?5rtcp_salt_len?5?$DO?50?0?5gen@ 00421704     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c738       ??_C@_0BJ@KAKGCCMO@?$CFs?3?5rtcp?5cipher?5key?3?5?$CFs?6?$AA@ 00421738     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c754       ??_C@_0BK@BAICKNEI@?$CFs?3?5rtcp?5cipher?5salt?3?5?$CFs?6?$AA@ 00421754     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c770       ??_C@_0BJ@CAOFEOFD@?$CFs?3?5rtcp?5auth?5key?3?5?5?5?$CFs?6?$AA@ 00421770     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c78c       ??_C@_0CI@PDNDGOMA@?$CFs?3?5initializing?5stream?5?$CISSRC?3?50@ 0042178c     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c7b4       ??_C@_0BH@GAKJJGLB@srtp?3?5in?5stream?50x?$CFx?3?5?$AA@ 004217b4     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c7cc       ??_C@_0BB@PPFALDPP@?7SSRC?5collision?6?$AA@ 004217cc     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c7e0       ??_C@_0BP@HOEKLBIN@?7key?5usage?5soft?5limit?5reached?6?$AA@ 004217e0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c800       ??_C@_0BP@KNJIFCF@?7key?5usage?5hard?5limit?5reached?6?$AA@ 00421800     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c820       ??_C@_0BN@MKCGGAOP@?7packet?5index?5limit?5reached?6?$AA@ 00421820     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c840       ??_C@_0CE@FFJEPPID@?7unknown?5event?5reported?5to?5handl@ 00421840     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c864       ??_C@_0BN@IJKEFIPG@?$CFs?3?5Pre?9salted?5RTP?5IV?5?$DN?5?$CFs?6?6?$AA@ 00421864     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c884       ??_C@_0BE@MNMIOELF@?$CFs?3?5RTP?5SALT?5?$DN?5?$CFs?6?6?$AA@ 00421884     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c898       ??_C@_0CH@MOHBLIMO@?$CFs?3?5estimated?5u_packet?5index?3?5?$CF0@ 00421898     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c8c0       ??_C@_0CA@OMJPHCHL@?$CFs?3?5function?5srtp_protect_aead?6?$AA@ 004218c0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c8e0       ??_C@_0CF@PEPHCKJP@?$CFs?3?5estimated?5packet?5index?3?5?$CF016@ 004218e0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c908       ??_C@_0CC@KIGABHOG@?$CFs?3?5function?5srtp_unprotect_aead@ 00421908     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c92c       ??_C@_0BL@MADNODBC@?$CFs?3?5function?5srtp_protect?6?$AA@ 0042192c     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c948       ??_C@_0BK@KLBGMJPP@?$CFs?3?5keystream?5prefix?3?5?$CFs?6?$AA@ 00421948     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c964       ??_C@_0BK@GCKOFNLP@?$CFs?3?5srtp?5auth?5tag?3?5?5?5?5?$CFs?6?$AA@ 00421964     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c980       ??_C@_0BN@LADOAJPP@?$CFs?3?5function?5srtp_unprotect?6?$AA@ 00421980     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c9a0       ??_C@_0CN@PJAKIEAG@?$CFs?3?5using?5provisional?5stream?5?$CISS@ 004219a0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c9d0       ??_C@_0BO@BONEKIBH@?$CFs?3?5computed?5auth?5tag?3?5?5?5?5?$CFs?6?$AA@ 004219d0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000c9f0       ??_C@_0BO@KMHOFFAA@?$CFs?3?5packet?5auth?5tag?3?5?5?5?5?5?5?$CFs?6?$AA@ 004219f0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000ca10       ??_C@_0BO@ONKEAFKG@?$CFs?3?5Pre?9salted?5RTCP?5IV?5?$DN?5?$CFs?6?6?$AA@ 00421a10     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000ca30       ??_C@_0BF@FLPIMBMP@?$CFs?3?5RTCP?5SALT?5?$DN?5?$CFs?6?6?$AA@ 00421a30     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000ca48       ??_C@_0BF@JBCKCIAJ@?$CFs?3?5srtcp?5index?3?5?$CFx?6?$AA@ 00421a48     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000ca60       ??_C@_0BL@OBHAKLEH@?$CFs?3?5srtcp?5auth?5tag?3?5?5?5?5?$CFs?6?$AA@ 00421a60     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000ca7c       ??_C@_0DD@HHOLLDKC@?$CFs?3?5srtcp?5using?5provisional?5stre@ 00421a7c     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000cab0       ??_C@_0CC@IMKDPKDI@?$CFs?3?5srtcp?5computed?5tag?3?5?5?5?5?5?5?5?$CFs@ 00421ab0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000cad4       ??_C@_0CC@GFCANNPL@?$CFs?3?5srtcp?5tag?5from?5packet?3?5?5?5?5?$CFs@ 00421ad4     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0002:0000caf8       ??_C@_05KNPMOECN@alloc?$AA@ 00421af8     libsrtp-i386-win32-vc14-release:alloc.obj
+ 0002:0000cb00       ??_C@_0BO@KJOGHNGM@?$CFs?3?5?$CIlocation?3?5?$CFp?$CJ?5allocated?6?$AA@ 00421b00     libsrtp-i386-win32-vc14-release:alloc.obj
+ 0002:0000cb20       ??_C@_0CN@JJLNACEJ@?$CFs?3?5allocation?5failed?5?$CIasked?5for@ 00421b20     libsrtp-i386-win32-vc14-release:alloc.obj
+ 0002:0000cb50       ??_C@_0BK@BNKOPMHD@?$CFs?3?5?$CIlocation?3?5?$CFp?$CJ?5freed?6?$AA@ 00421b50     libsrtp-i386-win32-vc14-release:alloc.obj
+ 0002:0000cb70       __xmm@66656463626139383736353433323130 00421b70     libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0002:0000cb80       ??_C@_07EFAIHJHH@libsrtp?$AA@ 00421b80     libsrtp-i386-win32-vc14-release:srtp_err.obj
+ 0002:0000cb88       ??_C@_06KDGDAFPH@cipher?$AA@ 00421b88     libsrtp-i386-win32-vc14-release:cipher.obj
+ 0002:0000cb90       ??_C@_09EJIBOKIO@auth?5func?$AA@ 00421b90     libsrtp-i386-win32-vc14-release:auth.obj
+ 0002:0000cb9c       ??_C@_0O@MIKIJNFL@crypto?5kernel?$AA@ 00421b9c     libsrtp-i386-win32-vc14-release:crypto_kernel.obj
+ 0002:0000cbac       ??_C@_0BE@ICAFLID@?$CFs?3?5EKT?5not?5in?5use?6?$AA@ 00421bac     libsrtp-i386-win32-vc14-release:ekt.obj
+ 0002:0000cbc0       ??_C@_0BK@CMOOGLJH@?$CFs?3?5writing?5EKT?5EMK?3?5?$CFs?0?6?$AA@ 00421bc0     libsrtp-i386-win32-vc14-release:ekt.obj
+ 0002:0000cbdc       ??_C@_0BK@BEIPMCDF@?$CFs?3?5writing?5EKT?5ROC?3?5?$CFs?0?6?$AA@ 00421bdc     libsrtp-i386-win32-vc14-release:ekt.obj
+ 0002:0000cbf8       ??_C@_0BK@BKDABMJO@?$CFs?3?5writing?5EKT?5ISN?3?5?$CFs?0?6?$AA@ 00421bf8     libsrtp-i386-win32-vc14-release:ekt.obj
+ 0002:0000cc14       ??_C@_0BK@BJPEDIGD@?$CFs?3?5writing?5EKT?5SPI?3?5?$CFs?0?6?$AA@ 00421c14     libsrtp-i386-win32-vc14-release:ekt.obj
+ 0002:0000cc30       ??_C@_09LCMAEBCF@stat?5test?$AA@ 00421c30     libsrtp-i386-win32-vc14-release:stat.obj
+ 0002:0000cc3c       ??_C@_0CK@DAFEFAPH@?$CFs?3?5allocating?5cipher?5with?5key?5l@ 00421c3c     libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0002:0000cc68       ??_C@_0BO@HCJFKKEE@?$CFs?3?5initializing?5null?5cipher?6?$AA@ 00421c68     libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0002:0000ccc0       _srtp_null_cipher          00421cc0     libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0002:0000ccec       ??_C@_07MPIJGLIA@aes?5icm?$AA@ 00421cec     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ccf4       _srtp_aes_icm_128          00421cf4     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cd20       _srtp_aes_icm_256          00421d20     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ceb4       ??_C@_0O@GFBJNBAD@?$CFs?3?5key?3?5?5?$CFs?6?$AA@ 00421eb4     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cec4       ??_C@_0BA@ILFEGDEM@?$CFs?3?5offset?3?5?$CFs?6?$AA@ 00421ec4     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ced4       ??_C@_0BE@ECIFEEKH@?$CFs?3?5setting?5iv?3?5?$CFs?6?$AA@ 00421ed4     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cee8       ??_C@_0BF@OAOEHNDM@?$CFs?3?5set_counter?3?5?$CFs?6?$AA@ 00421ee8     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cf00       ??_C@_0BE@ENJPOLAG@?$CFs?3?5counter?3?5?5?5?5?$CFs?6?$AA@ 00421f00     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cf14       ??_C@_0BE@ILCAEFF@?$CFs?3?5ciphertext?3?5?$CFs?6?$AA@ 00421f14     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cf28       ??_C@_0BF@BLBMMINO@?$CFs?3?5block?5index?3?5?$CFd?6?$AA@ 00421f28     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cf40       ??_C@_0CN@KBEHBKDH@?$CFs?3?5allocating?5auth?5func?5with?5ke@ 00421f40     libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0002:0000cf70       ??_C@_0CN@FDNDBNFI@?$CFs?3?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5?5ta@ 00421f70     libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0002:0000cfdc       _srtp_null_auth            00421fdc     libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0002:0000d000       ??_C@_0L@NBBBLMAJ@hmac?5sha?91?$AA@ 00422000     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d00c       ??_C@_0O@PJECJPIJ@?$CFs?3?5ipad?3?5?$CFs?6?$AA@ 0042200c     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d01c       ??_C@_0P@JHGAOEEF@?$CFs?3?5input?3?5?$CFs?6?$AA@ 0042201c     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d02c       ??_C@_0BM@JABNBLDM@?$CFs?3?5intermediate?5state?3?5?$CFs?6?$AA@ 0042202c     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d048       ??_C@_0BA@NKCNJNLN@?$CFs?3?5output?3?5?$CFs?6?$AA@ 00422048     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d0c8       _srtp_hmac                 004220c8     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d0f0       __xmm@36363636363636363636363636363636 004220f0     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d100       __xmm@5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c5c 00422100     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000f310       ??_C@_05BPJLFPNI@sha?91?$AA@ 00424310     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0002:0000f318       ??_C@_0CH@CIFCCFOE@?$CFs?3?5?$CIupdate?$CJ?5running?5srtp_sha1_c@ 00424318     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0002:0000f340       ??_C@_0CL@FECLBICF@?$CFs?3?5?$CIupdate?$CJ?5not?5running?5srtp_sh@ 00424340     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0002:0000f36c       ??_C@_0CG@BBEKCMGE@?$CFs?3?5?$CIfinal?$CJ?5running?5srtp_sha1_co@ 0042436c     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0002:0000f394       ??_C@_0CM@HEEFBAKO@?$CFs?3?5?$CIfinal?$CJ?5running?5srtp_sha1_co@ 00424394     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0002:0000f480       __load_config_used         00424480     MSVCRT:loadcfg.obj
+ 0002:0000f520       ___safe_se_handler_table   00424520     <linker-defined>
+ 0002:0000f750       ___rtc_iaa                 00424750     MSVCRT:_initsect_.obj
+ 0002:0000f754       ___rtc_izz                 00424754     MSVCRT:_initsect_.obj
+ 0002:0000f758       ___rtc_taa                 00424758     MSVCRT:_initsect_.obj
+ 0002:0000f75c       ___rtc_tzz                 0042475c     MSVCRT:_initsect_.obj
+ 0002:0000f79c       __IMPORT_DESCRIPTOR_ole32  0042479c     ole32:ole32.dll
+ 0002:0000f7b0       __IMPORT_DESCRIPTOR_WS2_32 004247b0     ws2_32:WS2_32.dll
+ 0002:0000f7c4       __IMPORT_DESCRIPTOR_WINMM  004247c4     winmm:WINMM.dll
+ 0002:0000f7d8       __IMPORT_DESCRIPTOR_KERNEL32 004247d8     kernel32:KERNEL32.dll
+ 0002:0000f7ec       __IMPORT_DESCRIPTOR_VCRUNTIME140 004247ec     vcruntime:VCRUNTIME140.dll
+ 0002:0000f800       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 00424800     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000f814       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 00424814     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000f828       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 00424828     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000f83c       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 0042483c     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:0000f850       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 00424850     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:0000f864       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 00424864     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000f878       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 00424878     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:0000f88c       __NULL_IMPORT_DESCRIPTOR   0042488c     ole32:ole32.dll
+ 0003:00000264       _pjmedia_add_rtpmap_for_static_pt 00426264     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0003:00000268       _pjmedia_add_bandwidth_tias_in_sdp 00426268     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0003:000004d0       _pj_pool_factory_default_policy 004264d0     pjlib-i386-win32-vc14-release:pool_policy_malloc.obj
+ 0003:0000059c       _PJ_VERSION                0042659c     pjlib-i386-win32-vc14-release:config.obj
+ 0003:000005a8       _mod_srtp                  004265a8     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0003:000005b4       _mod_alloc                 004265b4     libsrtp-i386-win32-vc14-release:alloc.obj
+ 0003:000005c0       _octet_weight              004265c0     libsrtp-i386-win32-vc14-release:datatypes.obj
+ 0003:000009c0       _srtp_mod_cipher           004269c0     libsrtp-i386-win32-vc14-release:cipher.obj
+ 0003:000009c8       _srtp_mod_auth             004269c8     libsrtp-i386-win32-vc14-release:auth.obj
+ 0003:000009d0       _srtp_mod_crypto_kernel    004269d0     libsrtp-i386-win32-vc14-release:crypto_kernel.obj
+ 0003:000009d8       _mod_stat                  004269d8     libsrtp-i386-win32-vc14-release:stat.obj
+ 0003:000009e0       _srtp_mod_aes_icm          004269e0     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0003:000009e8       _srtp_mod_hmac             004269e8     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0003:000009f0       _srtp_mod_sha1             004269f0     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0003:000009f8       _SHA_K0                    004269f8     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0003:000009fc       _SHA_K1                    004269fc     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0003:00000a00       _SHA_K2                    00426a00     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0003:00000a04       _SHA_K3                    00426a04     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0003:00000a10       ___security_cookie         00426a10     MSVCRT:gs_cookie.obj
+ 0003:00000a14       ___security_cookie_complement 00426a14     MSVCRT:gs_cookie.obj
+ 0003:00000a20       __fltused                  00426a20     MSVCRT:fltused.obj
+ 0003:00000a30       ___scrt_native_dllmain_reason 00426a30     MSVCRT:utility.obj
+ 0003:00000a34       ___scrt_default_matherr    00426a34     MSVCRT:matherr.obj
+ 0003:00000a40       ___isa_enabled             00426a40     MSVCRT:_cpu_disp_.obj
+ 0003:00000a44       ___scrt_ucrt_dll_is_in_use 00426a44     MSVCRT:ucrt_stubs.obj
+ 0003:00001704       _err_level                 00427704     libsrtp-i386-win32-vc14-release:srtp_err.obj
+ 0003:00001708       _crypto_kernel             00427708     libsrtp-i386-win32-vc14-release:crypto_kernel.obj
+ 0003:00001a54       ___scrt_current_native_startup_state 00427a54     MSVCRT:utility.obj
+ 0003:00001a58       ___scrt_native_startup_lock 00427a58     MSVCRT:utility.obj
+ 0003:00001a78       ?__type_info_root_node@@3U__type_info_node@@A 00427a78     MSVCRT:tncleanup.obj
+ 0003:00001a80       ___scrt_debugger_hook_flag 00427a80     MSVCRT:utility_desktop.obj
+ 0003:00001a84       ___isa_available           00427a84     MSVCRT:_cpu_disp_.obj
+ 0003:00001a88       ___favor                   00427a88     MSVCRT:_cpu_disp_.obj
+ 0003:00001a90       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 00427a90     <common>
+ 0003:00001a98       _PJ_NO_MEMORY_EXCEPTION    00427a98     <common>
+ 0003:00001aa0       _bit_string                00427aa0     <common>
+ 0003:00001ea0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 00427ea0     <common>
+ 0003:00001ea8       ___dyn_tls_dtor_callback   00427ea8     <common>
+ 0003:00001eac       ___dyn_tls_init_callback   00427eac     <common>
+
+ entry point at        0001:000124ad
+
+ Static symbols
+
+ 0002:fffeb000       .idata$6                   00400000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:00000000       _PJMEDIA_SPF               00401000 f   level.obj
+ 0001:00000030       _PJMEDIA_AFD_SPF           00401030 f   level.obj
+ 0001:00000060       _PJMEDIA_PIA_SRATE         00401060 f   level.obj
+ 0001:00000070       _PJMEDIA_PIA_SPF           00401070 f   level.obj
+ 0001:000000a0       _pjmedia_endpt_create      004010a0 f   level.obj
+ 0001:000000e0       _pjmedia_endpt_destroy     004010e0 f   level.obj
+ 0001:00000100       _app_perror                00401100 f   level.obj
+ 0001:000006b0       _factory_init              004016b0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:000006f0       _factory_destroy           004016f0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000720       _factory_refresh           00401720 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:000009d0       _factory_get_dev_count     004019d0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:000009e0       _factory_get_dev_info      004019e0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000a20       _factory_default_param     00401a20 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000af0       _factory_create_stream     00401af0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000d90       _stream_get_param          00401d90 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000e10       _stream_get_cap            00401e10 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000ea0       _stream_set_cap            00401ea0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000f30       _stream_start              00401f30 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00000fb0       _stream_stop               00401fb0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00001040       _stream_destroy            00402040 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00001210       _build_dev_info            00402210 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:000013c0       _init_capture_stream       004023c0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:000015e0       _init_player_stream        004025e0 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00001820       _init_waveformatex         00402820 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00001940       _wmme_dev_thread           00402940 f   pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0001:00002220       _worker_proc               00403220 f   pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0001:000022c0       _file_get_frame            004032c0 f   pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0001:00002520       _file_on_destroy           00403520 f   pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0001:00002540       _fill_buffer               00403540 f   pjmedia-i386-win32-vc14-release:wav_player.obj
+ 0001:00003210       _transport_get_info        00404210 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003340       _transport_detach          00404340 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:000033a0       _transport_send_rtp        004043a0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003460       _transport_send_rtcp       00404460 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003530       _transport_send_rtcp2      00404530 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003600       _transport_media_create    00404600 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003740       _transport_encode_sdp      00404740 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:000038f0       _transport_media_start     004048f0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003b80       _transport_media_stop      00404b80 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003d00       _transport_simulate_lost   00404d00 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003d30       _transport_destroy         00404d30 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003dd0       _transport_attach2         00404dd0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003f20       _sdes_media_create         00404f20 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00003fd0       _sdes_encode_sdp           00404fd0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:000045a0       _sdes_media_start          004055a0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00004940       _srtp_null_cipher_encrypt  00405940 f   libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0001:00004940       _sdes_media_stop           00405940 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00004940       _null_op                   00405940 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:00004940       _srtp_null_cipher_set_iv   00405940 f   libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0001:00004940       _srtp_null_auth_init       00405940 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00004940       _srtp_null_auth_compute    00405940 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00004940       _srtp_null_auth_update     00405940 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00004940       _srtp_null_auth_start      00405940 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00004950       _fill_local_crypto         00405950 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00004ca0       _generate_crypto_attr_value 00405ca0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00004f50       _get_crypto_idx            00405f50 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00004fd0       _parse_attr_crypto         00405fd0 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005a30       _srtp_crypto_cmp           00406a30 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005a70       _srtp_rtcp_cb              00406a70 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:00005b70       _srtp_rtp_cb               00406b70 f   pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0001:000060f0       _init_mutex                004070f0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000069c0       _pj_sem_wait_for           004079c0 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:00007110       _thread_main@4             00408110 f   pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0001:000077c0       _reset_pool                004087c0 f   pjlib-i386-win32-vc14-release:pool.obj
+ 0001:00007840       _cpool_create_pool         00408840 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007970       _cpool_dump_status         00408970 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007ac0       _cpool_on_block_alloc      00408ac0 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007ae0       _cpool_on_block_free       00408ae0 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007af0       _cpool_release_pool        00408af0 f   pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0001:00007d60       _default_block_alloc       00408d60 f   pjlib-i386-win32-vc14-release:pool_policy_malloc.obj
+ 0001:00007dc0       _default_block_free        00408dc0 f   pjlib-i386-win32-vc14-release:pool_policy_malloc.obj
+ 0001:00007e00       _default_pool_callback     00408e00 f   pjlib-i386-win32-vc14-release:pool_policy_malloc.obj
+ 0001:00008530       _logging_shutdown          00409530 f   pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008b3c       $LN14                      00409b3c     pjlib-i386-win32-vc14-release:log.obj
+ 0001:00008db0       _decrement_counter         00409db0 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00008e40       _increment_counter         00409e40 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009b40       _scan_closing_keys         0040ab40 f   pjlib-i386-win32-vc14-release:ioqueue_select.obj
+ 0001:00009ee0       _get_file_size             0040aee0 f   pjlib-i386-win32-vc14-release:file_access_win32.obj
+ 0001:0000a500       _create_mutex_lock         0040b500 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a570       _grp_lock_destroy          0040b570 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a620       _grp_lock_release          0040b620 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000a690       _grp_lock_tryacquire       0040b690 f   pjlib-i386-win32-vc14-release:lock.obj
+ 0001:0000aa10       _pool_buf_cleanup          0040ba10 f   pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0001:0000aa40       _stack_alloc               0040ba40 f   pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0001:0000adb0       _be64_to_cpu               0040bdb0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000aeb0       _srtp_calc_aead_iv         0040beb0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000afb0       _srtp_calc_aead_iv_srtcp   0040bfb0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b414       $LN11                      0040c414     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b430       _srtp_get_est_pkt_index    0040c430 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b670       _srtp_kdf_generate         0040c670 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b6f0       _srtp_kdf_init             0040c6f0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b760       _srtp_process_header_encryption 0040c760 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000b9c0       _srtp_protect_aead         0040c9c0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000c2a0       _srtp_protect_rtcp_aead    0040d2a0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000ced0       _srtp_stream_free          0040ded0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d974       $LN112                     0040e974     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d990       $LN113                     0040e990     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d9ac       $LN114                     0040e9ac     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000d9f0       _srtp_unprotect_aead       0040e9f0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000e360       _srtp_unprotect_rtcp_aead  0040f360 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000eaf0       _srtp_validate_rtp_header  0040faf0 f   libsrtp-i386-win32-vc14-release:srtp.obj
+ 0001:0000fa70       _srtp_null_cipher_alloc    00410a70 f   libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0001:0000fae0       _srtp_null_cipher_dealloc  00410ae0 f   libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0001:0000fb00       _srtp_null_cipher_init     00410b00 f   libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0001:0000fb30       _srtp_aes_icm_alloc        00410b30 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:0000fc10       _srtp_aes_icm_dealloc      00410c10 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:0000fc50       _srtp_aes_icm_context_init 00410c50 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:0000fd90       _srtp_aes_icm_set_iv       00410d90 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:0000fe40       _srtp_aes_icm_encrypt      00410e40 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:00010010       _srtp_aes_icm_advance      00411010 f   libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0001:000100a0       _srtp_null_auth_alloc      004110a0 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00010130       _srtp_null_auth_dealloc    00411130 f   libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0001:00010150       _srtp_hmac_alloc           00411150 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:00010200       _srtp_hmac_dealloc         00411200 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:00010220       _srtp_hmac_init            00411220 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:00010490       _srtp_hmac_start           00411490 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:000104b0       _srtp_hmac_update          004114b0 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:00010500       _srtp_hmac_compute         00411500 f   libsrtp-i386-win32-vc14-release:hmac.obj
+ 0001:00010630       _aes_128_expand_encryption_key 00411630 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00010a90       _aes_final_round           00411a90 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00010b90       _aes_inv_final_round       00411b90 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00010c90       _aes_inv_round             00411c90 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00010d80       _aes_round                 00411d80 f   libsrtp-i386-win32-vc14-release:aes.obj
+ 0001:00012090       $LN112                     00413090     libsrtp-i386-win32-vc14-release:sha1.obj
+ 0001:000121d0       $$000000                   004131d0     MSVCRT:llmul.obj
+ 0001:00012210       $$000000                   00413210     MSVCRT:ulldiv.obj
+ 0001:00012278       ?pre_c_initialization@@YAHXZ 00413278 f   MSVCRT:exe_main.obj
+ 0001:0001231c       ?post_pgo_initialization@@YAHXZ 0041331c f   MSVCRT:exe_main.obj
+ 0001:00012324       ?pre_cpp_initialization@@YAXXZ 00413324 f   MSVCRT:exe_main.obj
+ 0001:00012336       ?__scrt_common_main_seh@@YAHXZ 00413336 f   MSVCRT:exe_main.obj
+ 0001:000124c0       $$000000                   004134c0     MSVCRT:lldiv.obj
+ 0001:00012770       $$000000                   00413770     MSVCRT:_ftol3_.obj
+ 0001:00012ae7       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 00413ae7 f   MSVCRT:utility.obj
+ 0001:00012d62       ___get_entropy             00413d62 f   MSVCRT:gs_support.obj
+ 0001:00013080       $$000000                   00414080     MSVCRT:_sehprolg4_.obj
+ 0002:00000234       ?pre_cpp_initializer@@3P6AXXZA 00415234     MSVCRT:exe_main.obj
+ 0002:00000240       ?pre_c_initializer@@3P6AHXZA 00415240     MSVCRT:exe_main.obj
+ 0002:00000244       ?post_pgo_initializer@@3P6AHXZA 00415244     MSVCRT:exe_main.obj
+ 0002:00000260       _err_str                   00415260     pjmedia-audiodev-i386-win32-vc14-release:errno.obj
+ 0002:000007cc       _STR_RTP_AVP               004157cc     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:000007d4       _STR_IN                    004157d4     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:000007dc       _STR_IP4                   004157dc     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:000007e4       _STR_IP6                   004157e4     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:000007ec       _STR_SDP_NAME              004157ec     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:000007f4       _STR_SENDRECV              004157f4     pjmedia-i386-win32-vc14-release:endpoint.obj
+ 0002:00008f98       ?ID_RTP_AVP@?1??pjmedia_sdp_transport_cmp@@9@9 0041df98     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0002:00008fa0       ?ID_RTP_SAVP@?1??pjmedia_sdp_transport_cmp@@9@9 0041dfa0     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0002:00008fc0       _err_str                   0041dfc0     pjmedia-i386-win32-vc14-release:errno.obj
+ 0002:0000abd8       _ID_RTP_AVP                0041fbd8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000abe0       _ID_RTP_SAVP               0041fbe0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000abe8       _ID_INACTIVE               0041fbe8     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000abf0       _ID_CRYPTO                 0041fbf0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0002:0000b118       _base64_char               00420118     pjlib-util-i386-win32-vc14-release:base64.obj
+ 0002:0000b240       _err_str                   00420240     pjlib-i386-win32-vc14-release:errno.obj
+ 0002:0000b888       _gaErrorList               00420888     pjlib-i386-win32-vc14-release:os_error_win32.obj
+ 0002:0000cc88       _srtp_null_cipher_description 00421c88     libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0002:0000cc94       _srtp_null_cipher_test_0   00421c94     libsrtp-i386-win32-vc14-release:null_cipher.obj
+ 0002:0000cd4c       _srtp_aes_icm_128_description 00421d4c     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cd6c       _srtp_aes_icm_256_description 00421d6c     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cd8c       _srtp_aes_icm_128_test_case_0_key 00421d8c     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cdac       _srtp_aes_icm_128_test_case_0_plaintext 00421dac     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cdcc       _srtp_aes_icm_128_test_case_0_ciphertext 00421dcc     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cdec       _srtp_aes_icm_128_test_case_0 00421dec     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ce18       _srtp_aes_icm_256_test_case_0_key 00421e18     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ce48       _srtp_aes_icm_256_test_case_0_plaintext 00421e48     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ce68       _srtp_aes_icm_256_test_case_0_ciphertext 00421e68     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000ce88       _srtp_aes_icm_256_test_case_0 00421e88     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0002:0000cfa0       _srtp_null_auth_test_case_0 00421fa0     libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0002:0000cfbc       _srtp_null_auth_description 00421fbc     libsrtp-i386-win32-vc14-release:null_auth.obj
+ 0002:0000d058       _srtp_hmac_test_case_0_key 00422058     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d06c       _srtp_hmac_test_case_0_data 0042206c     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d074       _srtp_hmac_test_case_0_tag 00422074     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d088       _srtp_hmac_test_case_0     00422088     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d0a4       _srtp_hmac_description     004220a4     libsrtp-i386-win32-vc14-release:hmac.obj
+ 0002:0000d110       _T0                        00422110     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000d510       _T1                        00422510     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000d910       _T2                        00422910     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000dd10       _T3                        00422d10     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000e110       _U0                        00423110     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000e510       _U1                        00423510     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000e910       _U2                        00423910     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000ed10       _U3                        00423d10     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000f110       _aes_sbox                  00424110     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000f210       _aes_inv_sbox              00424210     libsrtp-i386-win32-vc14-release:aes.obj
+ 0002:0000f3c0       _GS_ExceptionPointers      004243c0     MSVCRT:gs_report.obj
+ 0002:0000f3d0       _Int32ToUInt32             004243d0     MSVCRT:_ftol3_.obj
+ 0002:0000f3d8       _DP2to32                   004243d8     MSVCRT:_ftol3_.obj
+ 0002:0000f3e0       _MantissaMask              004243e0     MSVCRT:_ftol3_.obj
+ 0002:0000f3e8       _IntegerBit                004243e8     MSVCRT:_ftol3_.obj
+ 0002:0000f3f0       _SignBit64                 004243f0     MSVCRT:_ftol3_.obj
+ 0002:0000f3f8       _MinFP64                   004243f8     MSVCRT:_ftol3_.obj
+ 0002:0000f400       _MinInt64                  00424400     MSVCRT:_ftol3_.obj
+ 0002:0000f408       _MaxInt64                  00424408     MSVCRT:_ftol3_.obj
+ 0002:0000f410       _MaxUInt64                 00424410     MSVCRT:_ftol3_.obj
+ 0002:0000f418       _MaxFP32                   00424418     MSVCRT:_ftol3_.obj
+ 0002:0000f420       _MinFP32                   00424420     MSVCRT:_ftol3_.obj
+ 0002:0000f428       _MinSubInexact             00424428     MSVCRT:_ftol3_.obj
+ 0002:0000f430       _FpExcptTable              00424430     MSVCRT:_ftol3_.obj
+ 0002:0000f440       _i1075                     00424440     MSVCRT:_ftol3_.obj
+ 0002:0000f444       _i1087                     00424444     MSVCRT:_ftol3_.obj
+ 0002:0000f448       _x0800                     00424448     MSVCRT:_ftol3_.obj
+ 0002:0000f44c       _x17FF                     0042444c     MSVCRT:_ftol3_.obj
+ 0002:0000f450       _CWMask                    00424450     MSVCRT:_ftol3_.obj
+ 0002:0000f760       __sehtable$?__scrt_common_main_seh@@YAHXZ 00424760     MSVCRT:exe_main.obj
+ 0002:0000f780       __sehtable$___scrt_is_nonwritable_in_current_image 00424780     MSVCRT:utility.obj
+ 0002:0000fadc       .idata$6                   00424adc     ole32:ole32.dll
+ 0002:0000fae6       .idata$6                   00424ae6     ws2_32:WS2_32.dll
+ 0002:0000fcb2       .idata$6                   00424cb2     winmm:WINMM.dll
+ 0002:00010018       .idata$6                   00425018     kernel32:KERNEL32.dll
+ 0002:00010072       .idata$6                   00425072     vcruntime:VCRUNTIME140.dll
+ 0002:000102f0       .idata$6                   004252f0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00010310       .idata$6                   00425310     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00010332       .idata$6                   00425332     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00010352       .idata$6                   00425352     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0002:00010374       .idata$6                   00425374     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00010394       .idata$6                   00425394     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000103b6       .idata$6                   004253b6     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0003:00000000       _desc                      00426000     level.obj
+ 0003:00000004       $SG22795                   00426004     level.obj
+ 0003:00000018       $SG4229                    00426018     level.obj
+ 0003:0000016c       $SG22838                   0042616c     level.obj
+ 0003:00000170       $SG22840                   00426170     level.obj
+ 0003:00000188       $SG22841                   00426188     level.obj
+ 0003:00000190       $SG22843                   00426190     level.obj
+ 0003:000001ac       $SG22844                   004261ac     level.obj
+ 0003:000001b4       $SG22845                   004261b4     level.obj
+ 0003:000001c8       $SG22846                   004261c8     level.obj
+ 0003:000001e4       $SG22847                   004261e4     level.obj
+ 0003:000001f8       $SG21756                   004261f8     level.obj
+ 0003:0000020c       $SG21757                   0042620c     level.obj
+ 0003:00000220       $SG17990                   00426220     level.obj
+ 0003:00000230       _factory_op                00426230     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0003:0000024c       _stream_op                 0042624c     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0003:00000270       _cap_infos                 00426270     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0003:000002e0       _crypto_suites             004262e0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:000003bc       _transport_srtp_op         004263bc     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:000003f0       _sdes_op                   004263f0     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:00000428       ?liberr@?1??get_libsrtp_errstr@@9@9 00426428     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:0000048c       _thread_tls_id             0042648c     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:00000490       _pool_sizes                00426490     pjlib-i386-win32-vc14-release:pool_caching.obj
+ 0003:000004e0       _thread_suspended_tls_id   004264e0     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004e4       _thread_indent_tls_id      004264e4     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004e8       _pj_log_max_level          004264e8     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004ec       _log_writer                004264ec     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004f0       _log_decor                 004264f0     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004f4       _PJ_LOG_COLOR_0            004264f4     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004f8       _PJ_LOG_COLOR_1            004264f8     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000004fc       _PJ_LOG_COLOR_2            004264fc     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000500       _PJ_LOG_COLOR_3            00426500     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000504       _PJ_LOG_COLOR_4            00426504     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000508       _PJ_LOG_COLOR_5            00426508     pjlib-i386-win32-vc14-release:log.obj
+ 0003:0000050c       _PJ_LOG_COLOR_6            0042650c     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000510       _PJ_LOG_COLOR_77           00426510     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000514       ?ltexts@?2??pj_log@@9@9    00426514     pjlib-i386-win32-vc14-release:log.obj
+ 0003:00000530       ?wdays@?3??pj_log@@9@9     00426530     pjlib-i386-win32-vc14-release:log.obj
+ 0003:0000054c       _thread_local_id           0042654c     pjlib-i386-win32-vc14-release:except.obj
+ 0003:00000550       _mutex_lock_template       00426550     pjlib-i386-win32-vc14-release:lock.obj
+ 0003:00000564       _null_lock_template        00426564     pjlib-i386-win32-vc14-release:lock.obj
+ 0003:00000578       _sem_lock_template         00426578     pjlib-i386-win32-vc14-release:lock.obj
+ 0003:0000058c       ?hex@?1??hex2digit@@9@9    0042658c     pjlib-i386-win32-vc14-release:guid_win32.obj
+ 0003:000005a0       _id                        004265a0     pjlib-i386-win32-vc14-release:config.obj
+ 0003:000005a4       _tls                       004265a4     pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0003:000005b0       _srtp_event_handler        004265b0     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0003:00000a60       $SG22835                   00426a60     level.obj
+ 0003:00000a61       $SG22848                   00426a61     level.obj
+ 0003:00000a64       ?name@?1??get_fmt_name@@9@9 00426a64     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0003:00000a6c       ?rec_cnt@?1??wmme_dev_thread@@9@9 00426a6c     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0003:00000a70       ?play_cnt@?1??wmme_dev_thread@@9@9 00426a70     pjmedia-audiodev-i386-win32-vc14-release:wmme_dev.obj
+ 0003:00000a78       _aud_subsys                00426a78     pjmedia-i386-win32-vc14-release:audiodev.obj
+ 0003:00000f48       _is_initialized            00426f48     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0003:00000f50       _cis_buf                   00426f50     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0003:00001354       _cs_digit                  00427354     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0003:0000135c       _cs_token                  0042735c     pjmedia-i386-win32-vc14-release:sdp.obj
+ 0003:00001364       ?msg@?3??get_libsrtp_errstr@@9@9 00427364     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:00001384       _libsrtp_initialized       00427384     pjmedia-i386-win32-vc14-release:transport_srtp.obj
+ 0003:00001388       _initialized               00427388     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:0000138c       _atexit_count              0042738c     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:00001390       _main_thread               00427390     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:00001490       _critical_section_mutex    00427490     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:000014c8       _atexit_func               004274c8     pjlib-i386-win32-vc14-release:os_core_win32.obj
+ 0003:00001548       _err_msg_hnd_cnt           00427548     pjlib-i386-win32-vc14-release:errno.obj
+ 0003:00001550       _err_msg_hnd               00427550     pjlib-i386-win32-vc14-release:errno.obj
+ 0003:000015c8       _g_last_thread             004275c8     pjlib-i386-win32-vc14-release:log.obj
+ 0003:000015d0       _base_time                 004275d0     pjlib-i386-win32-vc14-release:os_time_win32.obj
+ 0003:000015d8       ?buf@?1??pj_gethostname@@9@9 004275d8     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0003:00001658       ?hostname@?1??pj_gethostname@@9@9 00427658     pjlib-i386-win32-vc14-release:sock_bsd.obj
+ 0003:00001660       _exception_id_names        00427660     pjlib-i386-win32-vc14-release:except.obj
+ 0003:000016a0       ?unknown_name@?1??pj_exception_id_name@@9@9 004276a0     pjlib-i386-win32-vc14-release:except.obj
+ 0003:000016c0       _stack_based_factory       004276c0     pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0003:000016e4       _is_initialized            004276e4     pjlib-i386-win32-vc14-release:pool_buf.obj
+ 0003:000016e8       _s_hDLL                    004276e8     pjlib-i386-win32-vc14-release:ip_helper_win32.obj
+ 0003:000016ec       _s_pfnGetIpAddrTable       004276ec     pjlib-i386-win32-vc14-release:ip_helper_win32.obj
+ 0003:000016f0       _s_pfnGetAdapterAddresses  004276f0     pjlib-i386-win32-vc14-release:ip_helper_win32.obj
+ 0003:000016f4       _s_pfnGetIpForwardTable    004276f4     pjlib-i386-win32-vc14-release:ip_helper_win32.obj
+ 0003:000016f8       _s_pfnGetIfEntry           004276f8     pjlib-i386-win32-vc14-release:ip_helper_win32.obj
+ 0003:000016fc       _srtp_log_handler          004276fc     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0003:00001700       _srtp_log_handler_data     00427700     libsrtp-i386-win32-vc14-release:srtp.obj
+ 0003:00001718       _srtp_aes_icm_128_test_case_0_nonce 00427718     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0003:00001728       _srtp_aes_icm_256_test_case_0_nonce 00427728     libsrtp-i386-win32-vc14-release:aes_icm.obj
+ 0003:00001738       _GS_ExceptionRecord        00427738     MSVCRT:gs_report.obj
+ 0003:00001788       _GS_ContextRecord          00427788     MSVCRT:gs_report.obj
+ 0003:00001a5c       ?module_local_atexit_table@@3U_onexit_table_t@@A 00427a5c     MSVCRT:utility.obj
+ 0003:00001a68       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 00427a68     MSVCRT:utility.obj
+ 0003:00001a74       ?module_local_atexit_table_initialized@@3_NA 00427a74     MSVCRT:utility.obj
+ 0003:00001a75       ?is_initialized_as_dll@@3_NA 00427a75     MSVCRT:utility.obj
