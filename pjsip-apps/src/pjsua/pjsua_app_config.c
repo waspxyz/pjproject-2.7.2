@@ -1447,7 +1447,7 @@ static void default_config()
     pjsua_logging_config_default(&cfg->log_cfg);
     pjsua_media_config_default(&cfg->media_cfg);
     pjsua_transport_config_default(&cfg->udp_cfg);
-    cfg->udp_cfg.port = 5060;
+    cfg->udp_cfg.port = 15061;
     pjsua_transport_config_default(&cfg->rtp_cfg);
     cfg->rtp_cfg.port = 4000;
     cfg->redir_op = PJSIP_REDIRECT_ACCEPT_REPLACE;

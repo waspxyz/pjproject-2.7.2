@@ -30,5 +30,7 @@
  */
 //#include "icedemo.c"
 
-#include "simple_pjsua.c"
+//#include "simple_pjsua.c"
+
+#include "confsample.c"
 

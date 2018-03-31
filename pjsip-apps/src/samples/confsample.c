@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
 
 
     /* Create file ports. */
-    file_port = pj_pool_alloc(pool, file_count * sizeof(pjmedia_port*));
+    file_port = (pjmedia_port**)pj_pool_alloc(pool, file_count * sizeof(pjmedia_port*));
 
     for (i=0; i<file_count; ++i) {
 
